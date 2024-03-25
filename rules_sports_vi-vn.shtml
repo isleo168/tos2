@@ -1,0 +1,1488 @@
+<html lang="en" class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths mdl-js"><head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Trung Tâm Thông Tin</title>
+
+    <!-- Core CSS -->
+    <script src="/cdn-cgi/apps/head/xtnNYmK2BUTCaa8y6VTzgoouwIs.js"></script><link href="css/bootstrap.min.css" rel="stylesheet">
+<!--     <link href="css/main.css" rel="stylesheet"> -->
+    <link href="css/white.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+<style>@-webkit-keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-shown{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;box-shadow:0 0 .625em #d9d9d9;overflow-y:hidden}.swal2-popup.swal2-toast .swal2-header{flex-direction:row}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:initial;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon-text{font-size:2em;font-weight:700;line-height:1em}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{height:auto;margin:0 .3125em}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 .0625em #fff,0 0 0 .125em rgba(50,100,150,.4)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:2em;height:2.8125em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.25em;left:-.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:2em 2em;transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;-webkit-transform-origin:0 2em;transform-origin:0 2em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:showSweetToast .5s;animation:showSweetToast .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:hideSweetToast .2s forwards;animation:hideSweetToast .2s forwards}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:animate-toast-success-tip .75s;animation:animate-toast-success-tip .75s}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:animate-toast-success-long .75s;animation:animate-toast-success-long .75s}@-webkit-keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@-webkit-keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-shown{top:auto;right:auto;bottom:auto;left:auto;background-color:transparent}body.swal2-no-backdrop .swal2-shown>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-shown.swal2-top{top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-top-left,body.swal2-no-backdrop .swal2-shown.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-top-end,body.swal2-no-backdrop .swal2-shown.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-shown.swal2-center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-left,body.swal2-no-backdrop .swal2-shown.swal2-center-start{top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-end,body.swal2-no-backdrop .swal2-shown.swal2-center-right{top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom{bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom-left,body.swal2-no-backdrop .swal2-shown.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-bottom-end,body.swal2-no-backdrop .swal2-shown.swal2-bottom-right{right:0;bottom:0}.swal2-container{display:flex;position:fixed;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:10px;background-color:transparent;z-index:1060;overflow-x:hidden;-webkit-overflow-scrolling:touch}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-container.swal2-fade{transition:background-color .1s}.swal2-container.swal2-shown{background-color:rgba(0,0,0,.4)}.swal2-popup{display:none;position:relative;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border-radius:.3125em;background:#fff;font-family:inherit;font-size:1rem;box-sizing:border-box}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-popup .swal2-header{display:flex;flex-direction:column;align-items:center}.swal2-popup .swal2-title{display:block;position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-popup .swal2-actions{flex-wrap:wrap;align-items:center;justify-content:center;margin:1.25em auto 0;z-index:1}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-confirm{width:2.5em;height:2.5em;margin:.46875em;padding:0;border:.25em solid transparent;border-radius:100%;border-color:transparent;background-color:transparent!important;color:transparent;cursor:default;box-sizing:border-box;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-cancel{margin-right:30px;margin-left:30px}.swal2-popup .swal2-actions.swal2-loading :not(.swal2-styled).swal2-confirm::after{display:inline-block;width:15px;height:15px;margin-left:5px;border:3px solid #999;border-radius:50%;border-right-color:transparent;box-shadow:1px 1px 1px #fff;content:'';-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal}.swal2-popup .swal2-styled{margin:.3125em;padding:.625em 2em;font-weight:500;box-shadow:none}.swal2-popup .swal2-styled:not([disabled]){cursor:pointer}.swal2-popup .swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#3085d6;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#aaa;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled:focus{outline:0;box-shadow:0 0 0 2px #fff,0 0 0 4px rgba(50,100,150,.4)}.swal2-popup .swal2-styled::-moz-focus-inner{border:0}.swal2-popup .swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-popup .swal2-image{max-width:100%;margin:1.25em auto}.swal2-popup .swal2-close{position:absolute;top:0;right:0;justify-content:center;width:1.2em;height:1.2em;padding:0;transition:color .1s ease-out;border:none;border-radius:0;outline:initial;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer;overflow:hidden}.swal2-popup .swal2-close:hover{-webkit-transform:none;transform:none;color:#f27474}.swal2-popup>.swal2-checkbox,.swal2-popup>.swal2-file,.swal2-popup>.swal2-input,.swal2-popup>.swal2-radio,.swal2-popup>.swal2-select,.swal2-popup>.swal2-textarea{display:none}.swal2-popup .swal2-content{justify-content:center;margin:0;padding:0;color:#545454;font-size:1.125em;font-weight:300;line-height:normal;z-index:1;word-wrap:break-word}.swal2-popup #swal2-content{text-align:center}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-radio,.swal2-popup .swal2-select,.swal2-popup .swal2-textarea{margin:1em auto}.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-textarea{width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;font-size:1.125em;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);box-sizing:border-box}.swal2-popup .swal2-file.swal2-inputerror,.swal2-popup .swal2-input.swal2-inputerror,.swal2-popup .swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-popup .swal2-file:focus,.swal2-popup .swal2-input:focus,.swal2-popup .swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 3px #c4e6f5}.swal2-popup .swal2-file::-webkit-input-placeholder,.swal2-popup .swal2-input::-webkit-input-placeholder,.swal2-popup .swal2-textarea::-webkit-input-placeholder{color:#ccc}.swal2-popup .swal2-file:-ms-input-placeholder,.swal2-popup .swal2-input:-ms-input-placeholder,.swal2-popup .swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::-ms-input-placeholder,.swal2-popup .swal2-input::-ms-input-placeholder,.swal2-popup .swal2-textarea::-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::placeholder,.swal2-popup .swal2-input::placeholder,.swal2-popup .swal2-textarea::placeholder{color:#ccc}.swal2-popup .swal2-range input{width:80%}.swal2-popup .swal2-range output{width:20%;font-weight:600;text-align:center}.swal2-popup .swal2-range input,.swal2-popup .swal2-range output{height:2.625em;margin:1em auto;padding:0;font-size:1.125em;line-height:2.625em}.swal2-popup .swal2-input{height:2.625em;padding:0 .75em}.swal2-popup .swal2-input[type=number]{max-width:10em}.swal2-popup .swal2-file{font-size:1.125em}.swal2-popup .swal2-textarea{height:6.75em;padding:.75em}.swal2-popup .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;color:#545454;font-size:1.125em}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-radio{align-items:center;justify-content:center}.swal2-popup .swal2-checkbox label,.swal2-popup .swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-popup .swal2-checkbox input,.swal2-popup .swal2-radio input{margin:0 .4em}.swal2-popup .swal2-validation-message{display:none;align-items:center;justify-content:center;padding:.625em;background:#f0f0f0;color:#666;font-size:1em;font-weight:300;overflow:hidden}.swal2-popup .swal2-validation-message::before{display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center;content:'!';zoom:normal}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-moz-document url-prefix(){.swal2-close:focus{outline:2px solid rgba(50,100,150,.4)}}.swal2-icon{position:relative;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;line-height:5em;cursor:default;box-sizing:content-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;zoom:normal}.swal2-icon-text{font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:3.75em 3.75em;transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 3.75em;transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;top:-.25em;left:-.25em;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%;z-index:2;box-sizing:content-box}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;top:.5em;left:1.625em;width:.4375em;height:5.625em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);z-index:1}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;height:.3125em;border-radius:.125em;background-color:#a5dc86;z-index:2}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.875em;width:1.5625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-progresssteps{align-items:center;margin:0 0 1.25em;padding:0;font-weight:600}.swal2-progresssteps li{display:inline-block;position:relative}.swal2-progresssteps .swal2-progresscircle{width:2em;height:2em;border-radius:2em;background:#3085d6;color:#fff;line-height:2em;text-align:center;z-index:20}.swal2-progresssteps .swal2-progresscircle:first-child{margin-left:0}.swal2-progresssteps .swal2-progresscircle:last-child{margin-right:0}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep{background:#3085d6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progresscircle{background:#add8e6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progressline{background:#add8e6}.swal2-progresssteps .swal2-progressline{width:2.5em;height:.4em;margin:0 -1px;background:#3085d6;z-index:10}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-show.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-hide.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-animate-success-icon .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-animate-error-icon{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-animate-error-icon .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}@-webkit-keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:initial!important}}</style><style>
+      .ejoy-sub-active{
+        color: #1296ba !important;
+      }
+      
+      .ejoy-sub-hovered{
+        color: #1296ba !important;
+      }
+      .ejoy-sub-clzz{
+        cursor: pointer;
+        
+        lineHeight: 1.2;
+          font-size: 28px;
+          color: #FFCC00; background: rgba(17, 17, 17, 0.7);
+        
+      }
+      .ejoy-sub-clzz:hover{
+        color: #1296ba !important;
+      }
+      .ej-trans-sub{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999999;
+        cursor: move;
+      }
+      .ej-trans-sub > span{
+        color: #3CF9ED;
+        font-size: 18px;
+        text-align: center;
+        padding: 0 16px;
+        line-height: 1.5;
+        background: rgba(32, 26, 25, 0.8);
+        // text-shadow: 0px 1px 4px black;
+        padding: 0 8px;
+        
+        lineHeight: 1.2;
+        font-size: 16px;
+        color: #0CB1C7; background: rgba(67, 65, 65, 0.7);
+      
+      }
+      .ej-full-screen-video{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: 30px;
+        right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99999999;
+        cursor: pointer;
+      }
+      .ej-main-sub{
+        position: absolute;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 99999999;
+        cursor: move;
+        padding: 0 8px;
+      }
+      .ej-main-sub > span{
+        color: white;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        background: rgba(32, 26, 25, 0.8);
+        padding: 2px 8px;
+        
+        lineHeight: 1.2;
+          font-size: 28px;
+          color: #FFCC00; background: rgba(17, 17, 17, 0.7);
+        
+      }
+
+      .ej-main-sub .ejoy-sub-clzz{
+        background: transparent !important
+      }
+
+      .tran-subtitle > span{
+        cursor: pointer;
+        padding-left: 10px;
+        top: 2px;
+        position: relative;
+      }
+
+      .tran-subtitle > span > span{
+        position: absolute;
+        top: -170%;
+        background: rgba(0,0,0,0.5);
+        font-size: 13px;
+        line-height: 20px;
+        padding: 2px 8px;
+        color: white;
+        display: none;
+        border-radius: 4px;
+        white-space: nowrap;
+        left: -50%;
+        font-weight: normal;
+      }
+
+      .viewPopupPro {
+        z-index: 2147483647;
+        cursor: auto;
+        position: absolute;
+        z-index: 2147483647;
+        background: #111111;
+        transition: opacity 1s;
+        width: 172px;
+        height: 66px;
+        opacity: 1;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .titlePopupPro {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        color: #E5E5E5;
+        text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+      }
+  
+      .viewGoPro {
+        background: #FFCC00;
+        border-radius: 72.6257px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8px;
+        padding-left: 10px;
+        cursor: pointer;
+  
+      }
+
+      .viewGoPro svg {
+        pointer-events: none;
+      }
+      
+      .textGoPro {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 10px;
+        line-height: 12px;
+        pointer-events: none;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 4px 14px 4px 4px;
+      }
+
+      .viewPopupPro{
+        top: auto !important;
+        bottom: 15px !important;
+      }
+
+      .view-icon-copy-main-sub:hover > span,
+      .view-icon-edit-sub:hover > span,
+      .view-icon-exit-full-sub:hover > span,
+      .view-icon-full-sub:hover > span,
+      .iconCrownGoPro:hover > span,
+      .view-icon-copy-tran-sub:hover > span {
+        display: block;
+      }
+
+      .iconCrownGoPro{
+        padding-left: 0px !important;
+        padding-right: 8px !important;
+      }
+      .iconCrownGoPro svg{
+        width: 17px;
+        height: 17px;
+      }
+      .view-icon-full-sub, .view-icon-exit-full-sub {
+        display: flex;
+      }
+
+      .view-icon-full-sub > svg, .view-icon-exit-full-sub > svg {
+        pointer-events: none;
+      }
+
+      .tran-subtitle > span > svg{
+        width: 16px;
+        height: 16px;
+        pointer-events: none;
+        display: inline-flex !important;
+        vertical-align: baseline !important;
+      }
+      
+      .view-icon-copy-main-sub > svg{
+        pointer-events: none;
+        color: #FFCC00
+      }
+
+      .iconCrownGoPro{
+        padding-left: 0 !important;
+        padding-right: 8px !important;
+      }
+      .view-icon-copy-tran-sub > svg{
+        pointer-events: none;
+        color: #0CB1C7
+      }
+
+      </style></head>
+  
+<body style="">
+
+<!-- start header -->
+<div class="header">
+    <div class="logobx"></div>
+    <div class="blue-bar-head">
+        <div class="container">
+            Trung Tâm Thông Tin
+        </div>           
+    </div>
+</div>
+
+
+<!-- start menu with icons -->
+<div class="container">
+    <div class="mainbx">
+        <!-- MAIN MENUS -->
+        <div class="row">
+            <div id="menucontent">
+
+<!-- start menu with icons -->
+<div class="container">
+    <div class="mainbx">
+        <div class="nav-bx">
+            <ul class="nav-ico">
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <li>
+                        <a href="FAQ_general_vi-vn.shtml" id="faq_menu">
+                            <i class="icon icon-faq"></i><br>
+                            CÂU HỎI THƯỜNG GẶP
+                        </a>
+                    </li>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <li>
+                        <a href="rules_sports_vi-vn.shtml" id="rules_menu" class="active">
+                            <i class="icon icon-rules"></i><br>
+                            QUY ĐỊNH CÁ CƯỢC
+                        </a>
+                    </li>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <li>
+                        <a href="tutorial_registration_vi-vn.shtml" id="tut_menu">
+                            <i class="icon icon-tutorial"></i><br>
+                            HƯỚNG DẪN
+                        </a>
+                    </li>
+                </div>
+                <div class="col-md-3 col-sm-3 col-xs-3">
+                    <li>
+                        <a href="termOfUse_vi-vn.shtml" id="terms_menu">
+                            <i class="icon icon-terms"></i><br>
+                            ĐIỀU KIỆN SỬ DỤNG
+                        </a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+
+        <!-- start secondary toggle menus -->
+        <div class="col-lg-12">
+            <div class="sub-menusbx" id="submenu">
+            
+<nav role="navigation" class="navbar navbar-default">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+        <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <span class="menu-select" id="menu-select">Thể Thao</span>
+    </div>
+    <!-- Collection of nav links and other content for toggling -->
+    <div id="navbarCollapse" class="collapse navbar-collapse">
+        
+    </div>
+</nav></div>
+        </div>
+    </div>       
+</div>  
+<script>
+    $(document).ready(function () {
+        var page = window.location.pathname.split('/').slice(-1)[0];
+        var category = page.substr(0, page.indexOf('_')); 
+
+        switch (category)
+        {
+        case "FAQ": 
+            $("#faq_menu").addClass('active');
+            $.get("menus/FAQ_submenu_vi-vn.shtml", function(a){
+              $("#submenu").append(a);
+                setTimeout(function() {
+                 subCat();
+                },1);
+            });
+           break;
+        case "rules": 
+            $("#rules_menu").addClass('active');
+            $.get("menus/rules_submenu_vi-vn.shtml", function(a){
+              $("#submenu").append(a);
+                setTimeout(function() {
+                 subCat();
+                },1);
+            });
+           break;
+        case "tutorial": 
+            $("#tut_menu").addClass('active');
+            $.get("menus/tutorial_submenu_vi-vn.shtml", function(a){
+              $("#submenu").append(a);
+                setTimeout(function() {
+                 subCat();
+                },1);
+            });
+           break;
+        case "termOfUse": 
+            $("#terms_menu").addClass('active');
+            $.get("menus/term_submenu_vi-vn.shtml", function(a){
+              $("#submenu").append(a);
+                setTimeout(function() {
+                 subCat();
+                },1);
+            });
+           break;
+             default: 
+            $("#faq_menu").addClass('active');
+            $.get("menus/FAQ_submenu_vi-vn.shtml", function(a){
+              $("#submenu").append(a);
+                setTimeout(function() {
+                 subCat();
+                },1);
+            });
+           break;
+        }
+
+        function subCat() {
+            var page = window.location.pathname.split('/').slice(-1)[0];
+
+             $("#navbarCollapse a").each(function () {
+                var link = $(this).attr("href");
+                if(link == page){
+                    $(this).parent().addClass('active');
+                    $(this).parent().addClass('hidden-xs');
+                    if($(this).parent().hasClass('hidden-xs')){
+                        var activemenu = $(this).text();
+                        $("#menu-select").text(activemenu);
+                    }
+                }
+             });
+        }
+
+    });
+</script>
+</div>  
+        </div>
+
+
+        <!-- start accordion menus -->
+        <div class="col-lg-12">
+            <div class="menu-collapse">
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading1">
+                            <h4 class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                    1. Giới Thiệu Chung Quy Tắc và Quy Định
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1" aria-expanded="false" style="height: 0px;">
+                            <div class="panel-body">
+                                <p>
+                                    <b>1.1 Xác Nhận Cược/ Các Giao Dịch</b></p>
+                                <p>Đới với các vé cược tạm ngưng hoặc vô giá trị, chúng tôi không thực hiện theo yêu cầu về thay đổi, vô hiệu hoặc hủy bỏ đối với các vé cươc được xác nhận thành công trong hệ thống.</p>
+                                <p><b>1.2 Kết Quả và Thanh Toán Cược </b></p>
+                                <p>Các Kết Quả và Việc Thanh Toán Cược ( viết tắt là “ R&amp;S”), đề cập đến kết quả cuối cùng vé cược quý khách lựa chọn và các vé cược đã chấp nhận. Vui lòng tham khảo mục 5 trong <em><a href="termOfUse_vi-vn.shtml">điều khoản sử dụng</a>.</em>Tiền thắng cược sẽ được cập nhật vào trong tài khoản của quý khách ( tài khoản trò chơi, <em><a href="FAQ_payment_vi-vn.shtml">vui lòng tham khảo mục Câu Hỏi Thường Gặp</a></em> ) khi vé cược của quý khách đã được xử lý, có kết quả và thanh toán</p>
+                                <p>Kết quả được xác định theo các trang web chính thức của cơ quan quản lý có liên quan tại thời điểm giải quyết trận đấu. Nếu không có kết quả chính thức có sẵn từ các trang web chính thức thì cơ quan quản lý chính thức liên quan đến sự kiện vào lúc 24:00 ( giờ địa phương của sự kiện đó) sẽ quyết định kết quả. Kết quả sẽ không tính cho mục địch cá cược nếu có bị loại hoặc thay đổi các kết quả sự kiện nếu kết quả chính thức đã tồn tại.</p>
+                                <p>Nếu kết quả được giải quyết trung lập từ kết quả được đăng tải trên trang web ( ví dụ: chạy thông báo / văn bản trên website), DV388.com sẽ đưa tài liệu tham khảo cần thiết từ trang web chính thức để khắc phục hậu quả của sự kiện đặc biệt đó.</p>
+                                <p>Việc thanh toán sự kiện đặc biệt sẽ được tổ chức trên nhưng không đảm bảo cho sự chậm trễ tối đa trong trường hợp không có kết quả của sự kiện đặc biệt từ trang web chính thức hoặc từ cơ quan quản lý, DV388.com sẽ cố gắng xử lý kết quả và giải quyết sớm sau khi hoàn thành sự kiện khi có kết quả chính thức. trường hợp không có kết quả hoặc từ trang web chính thức không được cung cấp, chúng tôi sẽ giải quyết thanh toán vé cược bằng cách xác minh các kết quả độc lập, chúng tôi sẽ giải quyết dựa trên đa số các quan điểm độc lập hoặc ưu tiên nếu có trang web chính thức của giải đấu.</p>
+                                <p>DV388.com có quyền quyết định duy nhất cuối cùng để vô hiệu / hủy bỏ tất cả vé cược hoặc một phần, nếu DV388.com đủ tin rằng kết quả được biết trước khi sự kiện diễn ra, các vé cược được cung cấp vẫn chấp nhận do lỗi</p>
+                                <p>Nếu kết quả trận đấu không chắc chắn xác định, DV388 có quyền trì hoãn việc thanh toán của bất kỳ thị trường nào.</p>
+                                <p>DV388.com và Ban Quản Lý có quyền quyết định kết quả cuối cùng.</p>
+                                <p>Người thắng cuộc trong một Sự kiện được xác định khi kết thúc Sự kiện đó vì mục đích xác định cược giành chiến thắng bất kể việc thay đổi quyết định diễn ra sau đó hay kết quả của bất kỳ việc phản đối hay kháng nghị nào.</p>
+                                <p><b>1.3 Thời Gian Trận Đấu</b></p>
+                                <p>Vé cược của quý khách cần hoàn tất và xác nhận trong hệ thống trước khi thời gian trận đấu/ thời gian dự kiến được đưa ra từ hệ thống. Vé cược sẽ không chấp nhận khi quá thời gian thi đấu/ thời gian dự kiến và sự kiện/trận đấu/trò chơi bắt đầu.</p>
+                                <p>Trong sự kiện/ trận đấu/ trò chơi/ thị trường/ sản phẩm được chỉ định để chấp nhận đặt cược sau đó và trong sự kiện/ trận đấu/ trò chơi/ thị trường/ sản phẩm sẽ được coi là hợp lệ và được chấp nhận.Ví dụ: cược Thể Thao trong trận (đang trong trận, cược trong trận) hoặc bất kỳ quy định cá cược trong các trận đấu đang diễn ra trong trận trên trang web. </p>
+                                <p>Nếu DV388.com đủ tin rằng vé cược của bạn được xác nhận sau thời gian trận đấu diễn ra ( sự kiện không xác định/ trận đấu/ trò chơi/ thị trường/ sản phẩm sẽ cho phép chấp nhận sau khi có thời gian trận đấu, hoặc trong sự kiện/ trận đấu/ trò chơi/ thị trường/ sản phẩm không đóng hoặc đình chỉ trong thời gian chính thức, không chú ý thay đổi theo lịch trình thời gian từ các trang web chính thức/ không chính thức và các lý do khác) đặt cược của quý khách coi như là vô hiệu và số tiền đặt cược của quý khách ( một phần) sẽ được hoàn trả vào tài khoản của quý khách</p>
+                                <p>Tham khảo điều 5, <em><a href="termOfUse_vi-vn.shtml">điều khoản sử dụng</a>. </em>DV388.com và Ban Quản Lý có quyền quyết định cuối cùng nếu có bất kỳ tranh chấp phát sinh</p>
+                                <div class="title3">
+                                    <p><b>1.3.1. Khoảng thời gian</b></p>
+                                </div>
+                                <div class="title4">
+                                    <p>1.3.1.1. Khoảng thời gian hiển thị của một sự kiện chỉ mang tính chất tham khảo. Các cược sẽ có hiệu lực mặc dù có sự thay đổi trong khoảng thời gian đã định.</p>
+                                </div>
+                                <div class="title4">
+                                    <p>1.3.1.2. Bất kỳ sự cố nào xảy ra trong thời gian bù giờ hoặc nghỉ giải lao được xem là xảy ra khi kết thúc thời gian trận đấu thông thường. Ví dụ 1 bàn thắng được ghi trong thời gian bù giờ hiệp 1 của 1 trận bóng đá sẽ được xem là bàn thắng được ghi trong 45 phút thi đấu.</p>
+                                </div>
+                                <p><b>1.4 Tỷ Giá, Tỷ Lệ Cược  </b></p>
+                                <p>Trong quá trình mở tài khoản ( đăng ký tài khoản), quý khách có thể chọn định dạng Tỷ Lệ Cược yêu thích giữa các định dạng tỷ lệ cược thập phân, Mỹ, Malaysia, Hong Kong và Indo. Tham Khảo <em><a href="FAQ_general_vi-vn.shtml">Câu Hỏi Thường Gặp</a>. </em>
+                                    <br> Sau khi định dạng tỷ lệ cược này được đăng ký và quý khách sẽ được cung cấp trong phần định dạng tỷ lệ cược đặc biệt, nhưng hệ thống không giới hạn việc thay đổi định dạng tỷ lệ cược của quý khách sau khi đăng nhập vào tài khoản hoặc từ sản phẩm cụ thể. Quý khách cần kiểm tra tỷ lệ cược (giá) trước khi quý khách xác nhận đặt cược. DV388.com có quyền sửa đổi bất kỳ lỗi với các tỷ lệ cược trong các sư kiện đặc biệt/ trận đấu/ trò chơi trước hoặc sau khi có kết quả và thanh toán sự kiện/ trận đấu/ trò chơi. Vui lòng tham khảo điều 5 và 7,<em> <a href="termOfUse_vi-vn.shtml">điều  khoản sử dụng</a>.</em></p>
+                                <p><b>1.5 Thay Đổi Địa Điểm</b></p>
+                                <p>Tất cả các vé cược liên quan sẽ bị hủy nếu địa điểm thi đấu thay đổi thành địa điểm đội khách.</p>
+                                <p>Tất cả các vé cược có liên quan được coi là hợp lệ nếu sự kiện thi đấu được thay đổi đến địa điểm khác. Quy tắc này sẽ chỉ áp dụng duy nhất cho các sự kiện mà đội bóng thi đấu trong nhà. </p>
+                                <p><b>1.6 Thời Gian Tự Động Cập Nhật </b></p>
+                                <p>Quý khách có thể lựa chọn đặt cược khi sử dụng “Thời Gian Tự Động Cập Nhật” bằng cách chọn nút “ Chấp Nhận Thời Gian”. Tùy chọn “Tự Động Cập Nhật Thời Gian” sẽ có hiệu lực trong sự kiện nhất định. Vé cược của quý khách sẽ tự đông chấp nhận và xác nhận khi thời gian chỉ định hết hạn, nếu không bị gián đoạn trên các điều kiện sau : </p>
+                                <p>Quý khách đồng ý chấp nhận rằng DV388.com sẽ không chịu trách nhiệm mà chính quý khách sẽ hoàn toàn chịu trách nhiệm kiểm tra và xác nhận vé cược thành công của quý khách, và nó là nguy cơ riêng của quý khách khi sử dụng tính năng “Thời Gian Tự Động Cập Nhật”</p>
+                                <ul>
+                                    <li>Nếu không có bất kì đội nào ghi bàn.<b></b></li>
+                                    <li>Nếu không có thẻ đỏ được trao<b></b></li>
+                                    <li>Nếu không có phạt Penalty<b></b></li>
+                                    <li>Nếu không có giới hạn các lỗi kỹ thuật và các vấn đề khác, bất kỳ thất bại trong bất kỳ viễn thông có thể ngăn chặn việc đặt cược chính xác, chấp nhận và hoặc ghi lại hoặc thông báo các vé cược, sự chậm trễ và bị gián đoạn trong hoạt động của đường truyền như kết nối đường truyền thất bại.</li>
+                                </ul>
+                                <p>DV388.com có quyền quyết định cuối cùng. </p>
+                                <p><b>1.7 Hủy Bỏ hoặc Hoãn Lại Sự Kiện</b></p>
+
+                                <div class="title3">
+                                    <p><b>1.7.1 Hủy Bỏ Sự Kiện</b></p>
+                                    <p>Trong phần sự kiện được ngừng hoặc hủy bỏ vì bất kỳ lí do nào, tỷ số hiện tại được tính trong thời gian cụ thể đó nếu yêu cầu tối thiểu được thực hiện cho trận đấu cụ thể/ thị trường/ trò chơi / thể thao theo các quy tắc và quy định cụ thể hoặc có kết quả chính thức hoặc từ các cơ quan quản lý , trừ khi có quy định khác và tất cả các vé cược coi là vô hiệu. Trừ khi các thị trường đặc biệt trên các sự kiện với các quy định có hiệu lực và đã quyết định sẽ được coi là hợp lệ cho mục đích cá cược, ví dụ “Cá Cược Nửa Trận”</p>
+                                    <p><b>1.7.2 Hoãn Sự Kiện</b></p>
+                                    <p>Tất cả các vé cược là vô hiệu khi sự kiện bị hủy hoặc hoãn lại mà chỉ trong vòng 36 tiếng sau khi thời gian bắt đấu lên kế hoạch hoặc bắt đầu, hoặc trong vòng 12 tiếng cho trận đấu bóng chày. Vui lòng tham khảo quy luật bóng chày. </p>
+                                    <p>Lưu Ý : Quy luật không áp dụng cho quần vợt, Tham khảo quy tắc quy luật quần vợt.</p>
+                                </div>
+                                <p><b>1.8. Cược Combo và Cược xiên hệ thống    </b></p>
+                                <p>Cược xiên hệ thống là gì?
+                                    <br> Cược xiên hệ thống giống như là một cược tích lũy hoặc Combo mà trong đó bạn đặt cược nhiều trận trong cùng 1 vé cược, tuy nhiên sẽ có nhiều khả năng kết hợp từ lựa chọn đó và vẫn có khả năng thắng cược mặc dù không phải tất cả các lựa chọn của bạn đều thắng cược.
+                                    <br> Cược xiên hệ thống được hiển thị bằng 2 con số phân cách nhau bằng dấu gạch chéo ví dụ 2/4 trong đó số đầu tiên biểu thị là loại cược liên quan (trong trường hợp này, là 2 trận) và số thứ 2 thể hiện số trận lựa chọn.
+                                    <br> Ví dụ, cược xiên hệ thống 2/4, bạn sẽ chọn 4 trận và nhấp trên thanh cược hệ thống ở phía trên cùng của Thông tin vé cược, bạn sẽ thấy các lựa chọn cược xiên hệ thống. Cược xiên hệ thống 2/4 có thể tạo ra 6 kết hợp khi sử dụng 4 trận ddaauas, do vậy tiền đặt cược cho 1 kết hợp là $0.50, tổng tiền đặt cược của 6 kết hợp là $3. Kể cả chỉ có 2 kết hợp trong số trên thắng, cược của bạn vẫn có khả năng thắng với mức tiền hoàn lại dựa trên có bao nhiêu kết hợp của bạn thật sự thắng. Nếu không có kết hợp hoặc chỉ có 1 trận thắng, cược xiên hệ thống của bạn thua. Khi bạn đặt cược xiên hệ thống, tổng số tiền thắng cược hiển thị là số tiền thắng cược cao nhất mà bạn có thể nhận nếu tất cả các lựa chọn của bạn thắng.
+                                    <br> Bạn có thể xem chi tiết các vé cược xiên hệ thống đang đặt cược bằng cách nhấp vào mục Cược mở ngay bên dưới mục Tài khoản của tôi.</p>
+                                <div class="title3">
+                                    <p><b>1.8.1. Cược xiên hệ thống 3 trận</b></p>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.1.1 Xiên hệ thống 2/3</b></p>
+                                    <p>1 cược xiên hệ thống bao gồm 3 cược là 3 trận khách nhau – 3 trận kết hợp 2. Bất kỳ 2 trận nào thắng cược của bạn sẽ có tiền hoàn lại. Thắng càng nhiều số tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 2/3 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $3.</p>
+
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>3</td>
+                                                <td>-</td>
+                                                <td>3</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+
+                                <div class="title4">
+                                    <p><b>1.8.1.2 Xiên 3</b></p>
+                                    <p>1 cược xiên 3 là cược bao gồm 4 trận với kết hợp 3 trận khác nhau, sẽ có 3 kết hợp 2 trận và 1 kết hợp 3 trận. Bất kỳ 2 trận nào thắng đều có thể có tiền hoàn lại. Thắng càng nhiều số tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 3 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $4.</p>
+                                    <div class="table-responsive"><table class="table"></table><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>4</td>
+                                                <td>-</td>
+                                                <td>3</td>
+                                                <td>1</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+
+                                <div class="title3">
+                                    <p><b>1.8.2 Xiên hệ thống 4 lựa chọn</b></p>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.2.1 Xiên hệ thống 2/4</b></p>
+                                    <p>1 xiên hệ thống 2/4 bao gồm 6 cược với 4 lựa chọn khác nhau – 6 kết hợp 2 trận. Bất kỳ 2 cược nào thắng sẽ có tiền hoàn lại. Thắng càng nhiều số tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 2/4 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $6.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>6</td>
+                                                <td>-</td>
+                                                <td>6</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.2.2 Xiên hệ thống 3/4</b></p>
+                                    <p>1 Xiên hệ thống 3/4 bao gồm 4 cược với 4 lựa chọn khác nhau – 4 kết hợp 3 trận. Bất kỳ 3 trận nào thắng sẽ có tiền hoàn lại. Thắng càng nhiều tiền hoàn lại càng nhiều. Lưu ý rằng cược xiên hệ thống 3/4 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $4.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>4</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>4</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+
+                                <div class="title4">
+                                    <p><b>1.8.2.3 Yankee</b></p>
+                                    <p>1 Yankee bao gồm 11 cược với 4 lựa chọn khác nhau, 6 kết hợp 2 trận, 4 kết hợp 3 trận và 1 kết hợp 4 trận. Bất kỳ 2 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược Yankee với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $11.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>11</td>
+                                                <td>-</td>
+                                                <td>6</td>
+                                                <td>4</td>
+                                                <td>1</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+
+                                <div class="title3">
+                                    <p><b>1.8.3 Xiên hệ thống 5 lựa chọn</b></p>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.3.1 Xiên hệ thống 2/5</b></p>
+                                    <p>1 xiên hệ thống 2/5 bao gồm 10 cược với 5 lựa chọn khác nhau, 10 kết hợp 2 trận. Bất kỳ 2 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 2/5 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $10</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>10</td>
+                                                <td>-</td>
+                                                <td>10</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.3.2 Xiên hệ thống 3/5</b></p>
+                                    <p>1 xiên hệ thống 3/5 bao gồm 10 cược với 5 lựa chọn khác nhau, 10 kết hợp 3 trận. Bất kỳ 3 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 3/5 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $10</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>10</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>10</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.3.3 Xiên hệ thống 4/5</b></p>
+                                    <p>1 xiên hệ thống 4/5 bao gồm 5 cược với 5 lựa chọn khác nhau, 5 kết hợp 4 trận. Bất kỳ 4 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 4/5 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $5</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>5</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>5</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.3.4 Super Canadian</b></p>
+                                    <p>1 Super Canadian bao gồm 26 cược với 5 lựa chọn khác nhau, 10 kết hợp 2 trận, 10 kết hợp 3 trận, 5 kết hợp 4 trận và 1 kết hợp 5 trận. Bất kỳ 2 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng 1 cược Canadian với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $26</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>26</td>
+                                                <td>-</td>
+                                                <td>10</td>
+                                                <td>10</td>
+                                                <td>5</td>
+                                                <td>1</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+
+                                <div class="title3">
+                                    <p><b>1.8.4 Xiên hệ thống 6 lựa chọn</b></p>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.4.1 Xiên hệ thống 2/6</b></p>
+                                    <p>1 xiên hệ thống 2/6 bao gồm 15 cược với 6 lựa chọn khác nhau, 15 kết hợp 2 trận. Bất kỳ 2 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 2/6 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $15.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>15</td>
+                                                <td>-</td>
+                                                <td>15</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.4.2 Xiên hệ thống 3/6</b></p>
+                                    <p>1 xiên hệ thống 3/6 bao gồm 20 cược với 6 lựa chọn khác nhau, 30 kết hợp 3 trận. Bất kỳ 3 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 3/6 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $20.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>20</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>20</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.4.3 Xiên hệ thống 4/6</b></p>
+                                    <p>1 xiên hệ thống 4/6 bao gồm 15 cược với 6 lựa chọn khác nhau, 15 kết hợp 4 trận. Bất kỳ 4 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 4/6 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $15.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>15</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>15</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.4.4 Xiên hệ thống 5/6</b></p>
+                                    <p>1 xiên hệ thống 5/6 bao gồm 6 cược với 6 lựa chọn khác nhau, 6 kết hợp 5 trận. Bất kỳ 5 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 5/6 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $6.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>6</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>6</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.4.5 Xiên hệ thống Heinz</b></p>
+                                    <p>1 Heinz bao gồm 57 cược với 6 lựa chọn khác nhau, 15 kết hợp 2 trận, 20 kết hợp 3 trận, 15 kết hợp 4 trận, 6 kết hợp 5 trận và 1 kết hợp 6 trận. Bất kỳ 2 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng 1 cược Heinz với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $57.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>57</td>
+                                                <td>-</td>
+                                                <td>15</td>
+                                                <td>20</td>
+                                                <td>15</td>
+                                                <td>6</td>
+                                                <td>1</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+
+                                <div class="title3">
+                                    <p><b>1.8.5 Xiên hệ thống 7 lựa chọn</b></p>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.5.1 Xiên hệ thống 2/7</b></p>
+                                    <p>1 xiên hệ thống 2/7 bao gồm 21 cược với 7 lựa chọn khác nhau, 21 kết hợp 2 trận. Bất kỳ 2 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 2/7 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $21.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>21</td>
+                                                <td>-</td>
+                                                <td>21</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.5.2 Xiên hệ thống 3/7</b></p>
+                                    <p>1 xiên hệ thống 3/7 bao gồm 35 cược với 7 lựa chọn khác nhau, 35 kết hợp 3 trận. Bất kỳ 3 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 3/7 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $35.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>35</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>35</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.5.3 Xiên hệ thống 4/7</b></p>
+                                    <p>1 xiên hệ thống 4/7 bao gồm 35 cược với 7 lựa chọn khác nhau, 35 kết hợp 4 trận. Bất kỳ 4 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 4/7 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $35.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>35</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>35</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.5.4 Xiên hệ thống 5/7</b></p>
+                                    <p>1 xiên hệ thống 5/7 bao gồm 21 cược với 7 lựa chọn khác nhau, 21 kết hợp 5 trận. Bất kỳ 5 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 5/7 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $21.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>21</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>21</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.5.5 Xiên hệ thống 6/7</b></p>
+                                    <p>1 xiên hệ thống 6/7 bao gồm 7 cược với 7 lựa chọn khác nhau, 7 kết hợp 6 trận. Bất kỳ 6 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 6/7 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $7.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>7</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>7</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table></div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.5.6 Xiên Super Heinz</b></p>
+                                    <p>1 Super Heinz bao gồm 120 cược với 7 lựa chọn khác nhau, 21 kết hợp 2 trận, 35 kết hợp 3 trận, 35 kết hợp 4 trận, 21 kết hợp 5 trận, 7 kết hợp 6 trận và 1 kết hợp 7 trận. Bất kỳ 2 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng 1 xiên Super Heinz với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $120.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>120</td>
+                                                <td>-</td>
+                                                <td>21</td>
+                                                <td>35</td>
+                                                <td>35</td>
+                                                <td>21</td>
+                                                <td>7</td>
+                                                <td>1</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+
+                                <div class="title3">
+                                    <p><b>1.8.6 Xiên hệ thống 8 lựa chọn</b></p>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.6.1 Xiên hệ thống 2/8</b></p>
+                                    <p>1 xiên hệ thống 2/8 bao gồm 28 cược với 8 lựa chọn khác nhau, 28 kết hợp 2 trận. Bất kỳ 2 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 2/8 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $28.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>28</td>
+                                                <td>-</td>
+                                                <td>28</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.6.2 Xiên hệ thống 3/8</b></p>
+                                    <p>1 xiên hệ thống 3/8 bao gồm 56 cược với 8 lựa chọn khác nhau, 56 kết hợp 3 trận. Bất kỳ 3 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 3/8 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $56.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>56</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>56</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.6.3 Xiên hệ thống 4/8</b></p>
+                                    <p>1 xiên hệ thống 4/8 bao gồm 70 cược với 8 lựa chọn khác nhau, 70 kết hợp 4 trận. Bất kỳ 4 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 4/8 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $70.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>70</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>70</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.6.4 Xiên hệ thống 5/8</b></p>
+                                    <p>1 xiên hệ thống 5/8 bao gồm 56 cược với 8 lựa chọn khác nhau, 56 kết hợp 5 trận. Bất kỳ 5 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 5/8 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $56.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>56</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>56</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.6.5 Xiên hệ thống 6/8</b></p>
+                                    <p>1 xiên hệ thống 6/8 bao gồm 28 cược với 8 lựa chọn khác nhau, 28 kết hợp 6 trận. Bất kỳ 6 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 6/8 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $28.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>28</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>28</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.6.6 Xiên hệ thống 7/8</b></p>
+                                    <p>1 xiên hệ thống 7/8 bao gồm 8 cược với 8 lựa chọn khác nhau, 8 kết hợp 7 trận. Bất kỳ 7 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng cược xiên hệ thống 7/8 với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $8.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>8</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>-</td>
+                                                <td>8</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="title4">
+                                    <p><b>1.8.6.7 Xiên Goliath</b></p>
+                                    <p>1 xiên Goliath bao gồm 247 cược với 8 lựa chọn khác nhau, 28 kết hợp 2 trận, 56 kết hợp 3 trận, 70 kết hợp 4 trận, 56 kết hợp 5 trận, 28 kết hợp 6 trận, 8 kết hợp 7 trận và 1 kết hợp 8 trận. Bất kỳ 2 trận nào thắng sẽ có tiền hoàn lại. Càng thắng nhiều tiền hoàn lại càng cao. Lưu ý rằng 1 Goliath với mức tiền đặt cược $1 thì tổng tiền đặt cược sẽ là $247.</p>
+                                    <div class="table-responsive"><table class="table">
+                                        <tbody>
+                                            <tr class="rowheader" align="center">
+                                                <td rowspan="2">Số cược đặt</td>
+                                                <td rowspan="2">Cược đơn</td>
+                                                <td colspan="7"><b>Cược Combo</b></td>
+                                            </tr>
+                                            <tr class="rowheader" align="center">
+                                                <td>Hai</td>
+                                                <td>Ba</td>
+                                                <td>Bốn</td>
+                                                <td>Năm</td>
+                                                <td>Sáu</td>
+                                                <td>Bảy</td>
+                                                <td>Tám</td>
+                                            </tr>
+                                            <tr class="row1" align="center">
+                                                <td>247</td>
+                                                <td>-</td>
+                                                <td>28</td>
+                                                <td>56</td>
+                                                <td>70</td>
+                                                <td>56</td>
+                                                <td>28</td>
+                                                <td>8</td>
+                                                <td>1</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading2">
+                            <h4 class="panel-title">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    2. Nghĩa Vụ Thành Viên
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2" aria-expanded="false">
+                            <div class="panel-body">
+                                <p>Nghĩa vụ thành viên trong quy tắc và quy định này từ điều kiện sử dụng.</p>
+                                <p>Là một thành viên có nghĩa là bạn đồng ý , công nhận và tuyên bố rằng :</p>
+                                <ol type="i">
+                                    <li>Quý khách sử dụng trang web DV388.com ( hoặc bất kỳ đường dẫn cụ thể/ đường dẫn phụ, phần mềm và các ứng dụng) chỉ duy nhất cho mục đích tham gia thực sự của quý khách trong các trò chơi và không có bất kỳ tài chính đã đạt được, lợi dụng các trang web/ trò chơi, hành động gian lận, cung cấp thông tin và hoặc nhóm. Thực sự tham gia của bạn là đúng trong tư cách cá nhận của quý khách cho mục địch giải trí.</li>
+                                    <li>Nếu có bằng chứng của một loạt cá cược, đặt cược vào cả hai bên hoặc có chứa các lựa chọn tương tự được đặt cho các thành viên hoặc nhóm/ tổ hợp, DV388.com đủ lý do tin rằng các thành viên có hành vi gian lận trong hệ thống và trang web, DV388.com có quyền đình chỉ và/ hoặc khóa tài khoản, vô hiệu , hủy bỏ và giữ lại lệnh rút tiền đang tiến hành thực hiện.</li>
+                                    <li>iii)Thành viên có trách nhiệm báo cáo ngay lập tức trong bất kỳ tình huống sau đây : Tham Khảo điều 5.1.3 mục <em><a href="termOfUse_vi-vn.shtml">Điều Khoản Sử Dụng</a></em>.
+                                        <ol type="a">
+                                            <li>Kết quả không chính xác và thanh toán dưới bất cứ hoàn cảnh nào xảy ra.</li>
+                                            <li>Cập nhật tài khoản sai ( số dư/ giá trị về số dư) hoặc trong trường hợp cập nhật số dư không chính xác vào tài khoản của quý khách.</li>
+                                            <li>Tiền thắng cược không thuộc về tài khoản của quý khách.</li>
+                                            <li>Thanh toán sai trong tài khoản của quý khách và quý khách cố yêu cầu thanh toán rút tiền một phần/ toàn bộ số dư không thuộc về tài khoản của quý khách.</li>
+                                            <li>Nếu vị trí của sự kiện/ trận đấu/ trò chơi bị thay đổi và các sự kiện/ trận đấu/ trò chơi là sẽ không bị hoãn/ đóng trên trang web.</li>
+                                        </ol>
+                                    </li>
+                                    <li>DV388.com không chịu trách nhiệm cho bất kỳ tổn thất tài chính hoặc các vé cược được kết luật bởi bên thứ ba hoặc bất kỳ người nào trong tài khoản của quý khách cho mục đích tham gia cược. Đó là trách nhiệm của quý khách để giữ cho tất cả các chi tiết tài khoản của quý khách và DV388.com không chịu trách nhiệm do sơ suất của quý khách. Tham khảo điều 2.5 và <em><a href="termOfUse_vi-vn.shtml">Điểu Khoản Sử Dụng</a></em>.</li>
+                                </ol>
+                                <p>Tất cả các điều kiện quy định của quy chế này và các quy định trong đó dẫn đến vô hiệu và hủy bỏ cược.Áp dụng tất cả Điều Khoản Sử Dụng. DV388.com và Ban Quản Trị có quyền quyết định cuối cùng.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+<!-- back to top -->
+<a href="#" id="back-to-top" title="Back to top"><!-- &uarr; -->
+    <img src="images/goTop.png" title="Back to Top">
+</a>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $.get("menus/menu_vi-vn.shtml", function(a){
+      $("#menucontent").append(a);
+    });
+  });
+</script>
+
+</div></div><div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div><iframe id="nr-ext-rsicon" style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"></iframe></body></html>

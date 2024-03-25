@@ -1,0 +1,1335 @@
+<html lang="en" class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths mdl-js"><head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Trung Tâm Thông Tin</title>
+
+  <!-- Core CSS -->
+  <script src="/cdn-cgi/apps/head/xtnNYmK2BUTCaa8y6VTzgoouwIs.js"></script><link href="css/bootstrap.min.css" rel="stylesheet">
+<!--     <link href="css/main.css" rel="stylesheet"> -->
+  <link href="css/white.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+
+<style>@-webkit-keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@keyframes swal2-show{0%{-webkit-transform:scale(.7);transform:scale(.7)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}100%{-webkit-transform:scale(1);transform:scale(1)}}@-webkit-keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@keyframes swal2-hide{0%{-webkit-transform:scale(1);transform:scale(1);opacity:1}100%{-webkit-transform:scale(.5);transform:scale(.5);opacity:0}}@-webkit-keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@keyframes swal2-animate-success-line-tip{0%{top:1.1875em;left:.0625em;width:0}54%{top:1.0625em;left:.125em;width:0}70%{top:2.1875em;left:-.375em;width:3.125em}84%{top:3em;left:1.3125em;width:1.0625em}100%{top:2.8125em;left:.875em;width:1.5625em}}@-webkit-keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@keyframes swal2-animate-success-line-long{0%{top:3.375em;right:2.875em;width:0}65%{top:3.375em;right:2.875em;width:0}84%{top:2.1875em;right:0;width:3.4375em}100%{top:2.375em;right:.5em;width:2.9375em}}@-webkit-keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes swal2-rotate-success-circular-line{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}100%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@keyframes swal2-animate-error-x-mark{0%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}50%{margin-top:1.625em;-webkit-transform:scale(.4);transform:scale(.4);opacity:0}80%{margin-top:-.375em;-webkit-transform:scale(1.15);transform:scale(1.15)}100%{margin-top:0;-webkit-transform:scale(1);transform:scale(1);opacity:1}}@-webkit-keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}@keyframes swal2-animate-error-icon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}100%{-webkit-transform:rotateX(0);transform:rotateX(0);opacity:1}}body.swal2-toast-shown .swal2-container{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-shown{background-color:transparent}body.swal2-toast-shown .swal2-container.swal2-top{top:0;right:auto;bottom:auto;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-top-end,body.swal2-toast-shown .swal2-container.swal2-top-right{top:0;right:0;bottom:auto;left:auto}body.swal2-toast-shown .swal2-container.swal2-top-left,body.swal2-toast-shown .swal2-container.swal2-top-start{top:0;right:auto;bottom:auto;left:0}body.swal2-toast-shown .swal2-container.swal2-center-left,body.swal2-toast-shown .swal2-container.swal2-center-start{top:50%;right:auto;bottom:auto;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-center{top:50%;right:auto;bottom:auto;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-toast-shown .swal2-container.swal2-center-end,body.swal2-toast-shown .swal2-container.swal2-center-right{top:50%;right:0;bottom:auto;left:auto;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-left,body.swal2-toast-shown .swal2-container.swal2-bottom-start{top:auto;right:auto;bottom:0;left:0}body.swal2-toast-shown .swal2-container.swal2-bottom{top:auto;right:auto;bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-toast-shown .swal2-container.swal2-bottom-end,body.swal2-toast-shown .swal2-container.swal2-bottom-right{top:auto;right:0;bottom:0;left:auto}body.swal2-toast-column .swal2-toast{flex-direction:column;align-items:stretch}body.swal2-toast-column .swal2-toast .swal2-actions{flex:1;align-self:stretch;height:2.2em;margin-top:.3125em}body.swal2-toast-column .swal2-toast .swal2-loading{justify-content:center}body.swal2-toast-column .swal2-toast .swal2-input{height:2em;margin:.3125em auto;font-size:1em}body.swal2-toast-column .swal2-toast .swal2-validation-message{font-size:1em}.swal2-popup.swal2-toast{flex-direction:row;align-items:center;width:auto;padding:.625em;box-shadow:0 0 .625em #d9d9d9;overflow-y:hidden}.swal2-popup.swal2-toast .swal2-header{flex-direction:row}.swal2-popup.swal2-toast .swal2-title{flex-grow:1;justify-content:flex-start;margin:0 .6em;font-size:1em}.swal2-popup.swal2-toast .swal2-footer{margin:.5em 0 0;padding:.5em 0 0;font-size:.8em}.swal2-popup.swal2-toast .swal2-close{position:initial;width:.8em;height:.8em;line-height:.8}.swal2-popup.swal2-toast .swal2-content{justify-content:flex-start;font-size:1em}.swal2-popup.swal2-toast .swal2-icon{width:2em;min-width:2em;height:2em;margin:0}.swal2-popup.swal2-toast .swal2-icon-text{font-size:2em;font-weight:700;line-height:1em}.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line]{top:.875em;width:1.375em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:.3125em}.swal2-popup.swal2-toast .swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:.3125em}.swal2-popup.swal2-toast .swal2-actions{height:auto;margin:0 .3125em}.swal2-popup.swal2-toast .swal2-styled{margin:0 .3125em;padding:.3125em .625em;font-size:1em}.swal2-popup.swal2-toast .swal2-styled:focus{box-shadow:0 0 0 .0625em #fff,0 0 0 .125em rgba(50,100,150,.4)}.swal2-popup.swal2-toast .swal2-success{border-color:#a5dc86}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line]{position:absolute;width:2em;height:2.8125em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.25em;left:-.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:2em 2em;transform-origin:2em 2em;border-radius:4em 0 0 4em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.25em;left:.9375em;-webkit-transform-origin:0 2em;transform-origin:0 2em;border-radius:0 4em 4em 0}.swal2-popup.swal2-toast .swal2-success .swal2-success-ring{width:2em;height:2em}.swal2-popup.swal2-toast .swal2-success .swal2-success-fix{top:0;left:.4375em;width:.4375em;height:2.6875em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line]{height:.3125em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=tip]{top:1.125em;left:.1875em;width:.75em}.swal2-popup.swal2-toast .swal2-success [class^=swal2-success-line][class$=long]{top:.9375em;right:.1875em;width:1.375em}.swal2-popup.swal2-toast.swal2-show{-webkit-animation:showSweetToast .5s;animation:showSweetToast .5s}.swal2-popup.swal2-toast.swal2-hide{-webkit-animation:hideSweetToast .2s forwards;animation:hideSweetToast .2s forwards}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:animate-toast-success-tip .75s;animation:animate-toast-success-tip .75s}.swal2-popup.swal2-toast .swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:animate-toast-success-long .75s;animation:animate-toast-success-long .75s}@-webkit-keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@keyframes showSweetToast{0%{-webkit-transform:translateY(-.625em) rotateZ(2deg);transform:translateY(-.625em) rotateZ(2deg);opacity:0}33%{-webkit-transform:translateY(0) rotateZ(-2deg);transform:translateY(0) rotateZ(-2deg);opacity:.5}66%{-webkit-transform:translateY(.3125em) rotateZ(2deg);transform:translateY(.3125em) rotateZ(2deg);opacity:.7}100%{-webkit-transform:translateY(0) rotateZ(0);transform:translateY(0) rotateZ(0);opacity:1}}@-webkit-keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@keyframes hideSweetToast{0%{opacity:1}33%{opacity:.5}100%{-webkit-transform:rotateZ(1deg);transform:rotateZ(1deg);opacity:0}}@-webkit-keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@keyframes animate-toast-success-tip{0%{top:.5625em;left:.0625em;width:0}54%{top:.125em;left:.125em;width:0}70%{top:.625em;left:-.25em;width:1.625em}84%{top:1.0625em;left:.75em;width:.5em}100%{top:1.125em;left:.1875em;width:.75em}}@-webkit-keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}@keyframes animate-toast-success-long{0%{top:1.625em;right:1.375em;width:0}65%{top:1.25em;right:.9375em;width:0}84%{top:.9375em;right:0;width:1.125em}100%{top:.9375em;right:.1875em;width:1.375em}}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow:hidden}body.swal2-height-auto{height:auto!important}body.swal2-no-backdrop .swal2-shown{top:auto;right:auto;bottom:auto;left:auto;background-color:transparent}body.swal2-no-backdrop .swal2-shown>.swal2-modal{box-shadow:0 0 10px rgba(0,0,0,.4)}body.swal2-no-backdrop .swal2-shown.swal2-top{top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-top-left,body.swal2-no-backdrop .swal2-shown.swal2-top-start{top:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-top-end,body.swal2-no-backdrop .swal2-shown.swal2-top-right{top:0;right:0}body.swal2-no-backdrop .swal2-shown.swal2-center{top:50%;left:50%;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-left,body.swal2-no-backdrop .swal2-shown.swal2-center-start{top:50%;left:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-center-end,body.swal2-no-backdrop .swal2-shown.swal2-center-right{top:50%;right:0;-webkit-transform:translateY(-50%);transform:translateY(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom{bottom:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}body.swal2-no-backdrop .swal2-shown.swal2-bottom-left,body.swal2-no-backdrop .swal2-shown.swal2-bottom-start{bottom:0;left:0}body.swal2-no-backdrop .swal2-shown.swal2-bottom-end,body.swal2-no-backdrop .swal2-shown.swal2-bottom-right{right:0;bottom:0}.swal2-container{display:flex;position:fixed;top:0;right:0;bottom:0;left:0;flex-direction:row;align-items:center;justify-content:center;padding:10px;background-color:transparent;z-index:1060;overflow-x:hidden;-webkit-overflow-scrolling:touch}.swal2-container.swal2-top{align-items:flex-start}.swal2-container.swal2-top-left,.swal2-container.swal2-top-start{align-items:flex-start;justify-content:flex-start}.swal2-container.swal2-top-end,.swal2-container.swal2-top-right{align-items:flex-start;justify-content:flex-end}.swal2-container.swal2-center{align-items:center}.swal2-container.swal2-center-left,.swal2-container.swal2-center-start{align-items:center;justify-content:flex-start}.swal2-container.swal2-center-end,.swal2-container.swal2-center-right{align-items:center;justify-content:flex-end}.swal2-container.swal2-bottom{align-items:flex-end}.swal2-container.swal2-bottom-left,.swal2-container.swal2-bottom-start{align-items:flex-end;justify-content:flex-start}.swal2-container.swal2-bottom-end,.swal2-container.swal2-bottom-right{align-items:flex-end;justify-content:flex-end}.swal2-container.swal2-grow-fullscreen>.swal2-modal{display:flex!important;flex:1;align-self:stretch;justify-content:center}.swal2-container.swal2-grow-row>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container.swal2-grow-column{flex:1;flex-direction:column}.swal2-container.swal2-grow-column.swal2-bottom,.swal2-container.swal2-grow-column.swal2-center,.swal2-container.swal2-grow-column.swal2-top{align-items:center}.swal2-container.swal2-grow-column.swal2-bottom-left,.swal2-container.swal2-grow-column.swal2-bottom-start,.swal2-container.swal2-grow-column.swal2-center-left,.swal2-container.swal2-grow-column.swal2-center-start,.swal2-container.swal2-grow-column.swal2-top-left,.swal2-container.swal2-grow-column.swal2-top-start{align-items:flex-start}.swal2-container.swal2-grow-column.swal2-bottom-end,.swal2-container.swal2-grow-column.swal2-bottom-right,.swal2-container.swal2-grow-column.swal2-center-end,.swal2-container.swal2-grow-column.swal2-center-right,.swal2-container.swal2-grow-column.swal2-top-end,.swal2-container.swal2-grow-column.swal2-top-right{align-items:flex-end}.swal2-container.swal2-grow-column>.swal2-modal{display:flex!important;flex:1;align-content:center;justify-content:center}.swal2-container:not(.swal2-top):not(.swal2-top-start):not(.swal2-top-end):not(.swal2-top-left):not(.swal2-top-right):not(.swal2-center-start):not(.swal2-center-end):not(.swal2-center-left):not(.swal2-center-right):not(.swal2-bottom):not(.swal2-bottom-start):not(.swal2-bottom-end):not(.swal2-bottom-left):not(.swal2-bottom-right):not(.swal2-grow-fullscreen)>.swal2-modal{margin:auto}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-container .swal2-modal{margin:0!important}}.swal2-container.swal2-fade{transition:background-color .1s}.swal2-container.swal2-shown{background-color:rgba(0,0,0,.4)}.swal2-popup{display:none;position:relative;flex-direction:column;justify-content:center;width:32em;max-width:100%;padding:1.25em;border-radius:.3125em;background:#fff;font-family:inherit;font-size:1rem;box-sizing:border-box}.swal2-popup:focus{outline:0}.swal2-popup.swal2-loading{overflow-y:hidden}.swal2-popup .swal2-header{display:flex;flex-direction:column;align-items:center}.swal2-popup .swal2-title{display:block;position:relative;max-width:100%;margin:0 0 .4em;padding:0;color:#595959;font-size:1.875em;font-weight:600;text-align:center;text-transform:none;word-wrap:break-word}.swal2-popup .swal2-actions{flex-wrap:wrap;align-items:center;justify-content:center;margin:1.25em auto 0;z-index:1}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled[disabled]{opacity:.4}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:hover{background-image:linear-gradient(rgba(0,0,0,.1),rgba(0,0,0,.1))}.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:active{background-image:linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2))}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-confirm{width:2.5em;height:2.5em;margin:.46875em;padding:0;border:.25em solid transparent;border-radius:100%;border-color:transparent;background-color:transparent!important;color:transparent;cursor:default;box-sizing:border-box;-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-cancel{margin-right:30px;margin-left:30px}.swal2-popup .swal2-actions.swal2-loading :not(.swal2-styled).swal2-confirm::after{display:inline-block;width:15px;height:15px;margin-left:5px;border:3px solid #999;border-radius:50%;border-right-color:transparent;box-shadow:1px 1px 1px #fff;content:'';-webkit-animation:swal2-rotate-loading 1.5s linear 0s infinite normal;animation:swal2-rotate-loading 1.5s linear 0s infinite normal}.swal2-popup .swal2-styled{margin:.3125em;padding:.625em 2em;font-weight:500;box-shadow:none}.swal2-popup .swal2-styled:not([disabled]){cursor:pointer}.swal2-popup .swal2-styled.swal2-confirm{border:0;border-radius:.25em;background:initial;background-color:#3085d6;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled.swal2-cancel{border:0;border-radius:.25em;background:initial;background-color:#aaa;color:#fff;font-size:1.0625em}.swal2-popup .swal2-styled:focus{outline:0;box-shadow:0 0 0 2px #fff,0 0 0 4px rgba(50,100,150,.4)}.swal2-popup .swal2-styled::-moz-focus-inner{border:0}.swal2-popup .swal2-footer{justify-content:center;margin:1.25em 0 0;padding:1em 0 0;border-top:1px solid #eee;color:#545454;font-size:1em}.swal2-popup .swal2-image{max-width:100%;margin:1.25em auto}.swal2-popup .swal2-close{position:absolute;top:0;right:0;justify-content:center;width:1.2em;height:1.2em;padding:0;transition:color .1s ease-out;border:none;border-radius:0;outline:initial;background:0 0;color:#ccc;font-family:serif;font-size:2.5em;line-height:1.2;cursor:pointer;overflow:hidden}.swal2-popup .swal2-close:hover{-webkit-transform:none;transform:none;color:#f27474}.swal2-popup>.swal2-checkbox,.swal2-popup>.swal2-file,.swal2-popup>.swal2-input,.swal2-popup>.swal2-radio,.swal2-popup>.swal2-select,.swal2-popup>.swal2-textarea{display:none}.swal2-popup .swal2-content{justify-content:center;margin:0;padding:0;color:#545454;font-size:1.125em;font-weight:300;line-height:normal;z-index:1;word-wrap:break-word}.swal2-popup #swal2-content{text-align:center}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-radio,.swal2-popup .swal2-select,.swal2-popup .swal2-textarea{margin:1em auto}.swal2-popup .swal2-file,.swal2-popup .swal2-input,.swal2-popup .swal2-textarea{width:100%;transition:border-color .3s,box-shadow .3s;border:1px solid #d9d9d9;border-radius:.1875em;font-size:1.125em;box-shadow:inset 0 1px 1px rgba(0,0,0,.06);box-sizing:border-box}.swal2-popup .swal2-file.swal2-inputerror,.swal2-popup .swal2-input.swal2-inputerror,.swal2-popup .swal2-textarea.swal2-inputerror{border-color:#f27474!important;box-shadow:0 0 2px #f27474!important}.swal2-popup .swal2-file:focus,.swal2-popup .swal2-input:focus,.swal2-popup .swal2-textarea:focus{border:1px solid #b4dbed;outline:0;box-shadow:0 0 3px #c4e6f5}.swal2-popup .swal2-file::-webkit-input-placeholder,.swal2-popup .swal2-input::-webkit-input-placeholder,.swal2-popup .swal2-textarea::-webkit-input-placeholder{color:#ccc}.swal2-popup .swal2-file:-ms-input-placeholder,.swal2-popup .swal2-input:-ms-input-placeholder,.swal2-popup .swal2-textarea:-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::-ms-input-placeholder,.swal2-popup .swal2-input::-ms-input-placeholder,.swal2-popup .swal2-textarea::-ms-input-placeholder{color:#ccc}.swal2-popup .swal2-file::placeholder,.swal2-popup .swal2-input::placeholder,.swal2-popup .swal2-textarea::placeholder{color:#ccc}.swal2-popup .swal2-range input{width:80%}.swal2-popup .swal2-range output{width:20%;font-weight:600;text-align:center}.swal2-popup .swal2-range input,.swal2-popup .swal2-range output{height:2.625em;margin:1em auto;padding:0;font-size:1.125em;line-height:2.625em}.swal2-popup .swal2-input{height:2.625em;padding:0 .75em}.swal2-popup .swal2-input[type=number]{max-width:10em}.swal2-popup .swal2-file{font-size:1.125em}.swal2-popup .swal2-textarea{height:6.75em;padding:.75em}.swal2-popup .swal2-select{min-width:50%;max-width:100%;padding:.375em .625em;color:#545454;font-size:1.125em}.swal2-popup .swal2-checkbox,.swal2-popup .swal2-radio{align-items:center;justify-content:center}.swal2-popup .swal2-checkbox label,.swal2-popup .swal2-radio label{margin:0 .6em;font-size:1.125em}.swal2-popup .swal2-checkbox input,.swal2-popup .swal2-radio input{margin:0 .4em}.swal2-popup .swal2-validation-message{display:none;align-items:center;justify-content:center;padding:.625em;background:#f0f0f0;color:#666;font-size:1em;font-weight:300;overflow:hidden}.swal2-popup .swal2-validation-message::before{display:inline-block;width:1.5em;min-width:1.5em;height:1.5em;margin:0 .625em;border-radius:50%;background-color:#f27474;color:#fff;font-weight:600;line-height:1.5em;text-align:center;content:'!';zoom:normal}@supports (-ms-accelerator:true){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.swal2-range input{width:100%!important}.swal2-range output{display:none}}@-moz-document url-prefix(){.swal2-close:focus{outline:2px solid rgba(50,100,150,.4)}}.swal2-icon{position:relative;justify-content:center;width:5em;height:5em;margin:1.25em auto 1.875em;border:.25em solid transparent;border-radius:50%;line-height:5em;cursor:default;box-sizing:content-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;zoom:normal}.swal2-icon-text{font-size:3.75em}.swal2-icon.swal2-error{border-color:#f27474}.swal2-icon.swal2-error .swal2-x-mark{position:relative;flex-grow:1}.swal2-icon.swal2-error [class^=swal2-x-mark-line]{display:block;position:absolute;top:2.3125em;width:2.9375em;height:.3125em;border-radius:.125em;background-color:#f27474}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=left]{left:1.0625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-error [class^=swal2-x-mark-line][class$=right]{right:1em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-icon.swal2-warning{border-color:#facea8;color:#f8bb86}.swal2-icon.swal2-info{border-color:#9de0f6;color:#3fc3ee}.swal2-icon.swal2-question{border-color:#c9dae1;color:#87adbd}.swal2-icon.swal2-success{border-color:#a5dc86}.swal2-icon.swal2-success [class^=swal2-success-circular-line]{position:absolute;width:3.75em;height:7.5em;-webkit-transform:rotate(45deg);transform:rotate(45deg);border-radius:50%}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left]{top:-.4375em;left:-2.0635em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:3.75em 3.75em;transform-origin:3.75em 3.75em;border-radius:7.5em 0 0 7.5em}.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right]{top:-.6875em;left:1.875em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 3.75em;transform-origin:0 3.75em;border-radius:0 7.5em 7.5em 0}.swal2-icon.swal2-success .swal2-success-ring{position:absolute;top:-.25em;left:-.25em;width:100%;height:100%;border:.25em solid rgba(165,220,134,.3);border-radius:50%;z-index:2;box-sizing:content-box}.swal2-icon.swal2-success .swal2-success-fix{position:absolute;top:.5em;left:1.625em;width:.4375em;height:5.625em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);z-index:1}.swal2-icon.swal2-success [class^=swal2-success-line]{display:block;position:absolute;height:.3125em;border-radius:.125em;background-color:#a5dc86;z-index:2}.swal2-icon.swal2-success [class^=swal2-success-line][class$=tip]{top:2.875em;left:.875em;width:1.5625em;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal2-icon.swal2-success [class^=swal2-success-line][class$=long]{top:2.375em;right:.5em;width:2.9375em;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal2-progresssteps{align-items:center;margin:0 0 1.25em;padding:0;font-weight:600}.swal2-progresssteps li{display:inline-block;position:relative}.swal2-progresssteps .swal2-progresscircle{width:2em;height:2em;border-radius:2em;background:#3085d6;color:#fff;line-height:2em;text-align:center;z-index:20}.swal2-progresssteps .swal2-progresscircle:first-child{margin-left:0}.swal2-progresssteps .swal2-progresscircle:last-child{margin-right:0}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep{background:#3085d6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progresscircle{background:#add8e6}.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep~.swal2-progressline{background:#add8e6}.swal2-progresssteps .swal2-progressline{width:2.5em;height:.4em;margin:0 -1px;background:#3085d6;z-index:10}[class^=swal2]{-webkit-tap-highlight-color:transparent}.swal2-show{-webkit-animation:swal2-show .3s;animation:swal2-show .3s}.swal2-show.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-hide{-webkit-animation:swal2-hide .15s forwards;animation:swal2-hide .15s forwards}.swal2-hide.swal2-noanimation{-webkit-animation:none;animation:none}.swal2-rtl .swal2-close{right:auto;left:0}.swal2-animate-success-icon .swal2-success-line-tip{-webkit-animation:swal2-animate-success-line-tip .75s;animation:swal2-animate-success-line-tip .75s}.swal2-animate-success-icon .swal2-success-line-long{-webkit-animation:swal2-animate-success-line-long .75s;animation:swal2-animate-success-line-long .75s}.swal2-animate-success-icon .swal2-success-circular-line-right{-webkit-animation:swal2-rotate-success-circular-line 4.25s ease-in;animation:swal2-rotate-success-circular-line 4.25s ease-in}.swal2-animate-error-icon{-webkit-animation:swal2-animate-error-icon .5s;animation:swal2-animate-error-icon .5s}.swal2-animate-error-icon .swal2-x-mark{-webkit-animation:swal2-animate-error-x-mark .5s;animation:swal2-animate-error-x-mark .5s}@-webkit-keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@keyframes swal2-rotate-loading{0%{-webkit-transform:rotate(0);transform:rotate(0)}100%{-webkit-transform:rotate(360deg);transform:rotate(360deg)}}@media print{body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown){overflow-y:scroll!important}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)>[aria-hidden=true]{display:none}body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) .swal2-container{position:initial!important}}</style><style>
+    .ejoy-sub-active{
+      color: #1296ba !important;
+    }
+    
+    .ejoy-sub-hovered{
+      color: #1296ba !important;
+    }
+    .ejoy-sub-clzz{
+      cursor: pointer;
+      
+      lineHeight: 1.2;
+        font-size: 28px;
+        color: #FFCC00; background: rgba(17, 17, 17, 0.7);
+      
+    }
+    .ejoy-sub-clzz:hover{
+      color: #1296ba !important;
+    }
+    .ej-trans-sub{
+      position: absolute;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999999;
+      cursor: move;
+    }
+    .ej-trans-sub > span{
+      color: #3CF9ED;
+      font-size: 18px;
+      text-align: center;
+      padding: 0 16px;
+      line-height: 1.5;
+      background: rgba(32, 26, 25, 0.8);
+      // text-shadow: 0px 1px 4px black;
+      padding: 0 8px;
+      
+      lineHeight: 1.2;
+      font-size: 16px;
+      color: #0CB1C7; background: rgba(67, 65, 65, 0.7);
+    
+    }
+    .ej-full-screen-video{
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      top: 30px;
+      right: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 99999999;
+      cursor: pointer;
+    }
+    .ej-main-sub{
+      position: absolute;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 99999999;
+      cursor: move;
+      padding: 0 8px;
+    }
+    .ej-main-sub > span{
+      color: white;
+      font-size: 20px;
+      line-height: 1.5;
+      text-align: center;
+      background: rgba(32, 26, 25, 0.8);
+      padding: 2px 8px;
+      
+      lineHeight: 1.2;
+        font-size: 28px;
+        color: #FFCC00; background: rgba(17, 17, 17, 0.7);
+      
+    }
+
+    .ej-main-sub .ejoy-sub-clzz{
+      background: transparent !important
+    }
+
+    .tran-subtitle > span{
+      cursor: pointer;
+      padding-left: 10px;
+      top: 2px;
+      position: relative;
+    }
+
+    .tran-subtitle > span > span{
+      position: absolute;
+      top: -170%;
+      background: rgba(0,0,0,0.5);
+      font-size: 13px;
+      line-height: 20px;
+      padding: 2px 8px;
+      color: white;
+      display: none;
+      border-radius: 4px;
+      white-space: nowrap;
+      left: -50%;
+      font-weight: normal;
+    }
+
+    .viewPopupPro {
+      z-index: 2147483647;
+      cursor: auto;
+      position: absolute;
+      z-index: 2147483647;
+      background: #111111;
+      transition: opacity 1s;
+      width: 172px;
+      height: 66px;
+      opacity: 1;
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .titlePopupPro {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 12px;
+      color: #E5E5E5;
+      text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    }
+
+    .viewGoPro {
+      background: #FFCC00;
+      border-radius: 72.6257px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 8px;
+      padding-left: 10px;
+      cursor: pointer;
+
+    }
+
+    .viewGoPro svg {
+      pointer-events: none;
+    }
+    
+    .textGoPro {
+      font-style: normal;
+      font-weight: 600;
+      font-size: 10px;
+      line-height: 12px;
+      pointer-events: none;
+      text-align: center;
+      color: #FFFFFF;
+      padding: 4px 14px 4px 4px;
+    }
+
+    .viewPopupPro{
+      top: auto !important;
+      bottom: 15px !important;
+    }
+
+    .view-icon-copy-main-sub:hover > span,
+    .view-icon-edit-sub:hover > span,
+    .view-icon-exit-full-sub:hover > span,
+    .view-icon-full-sub:hover > span,
+    .iconCrownGoPro:hover > span,
+    .view-icon-copy-tran-sub:hover > span {
+      display: block;
+    }
+
+    .iconCrownGoPro{
+      padding-left: 0px !important;
+      padding-right: 8px !important;
+    }
+    .iconCrownGoPro svg{
+      width: 17px;
+      height: 17px;
+    }
+    .view-icon-full-sub, .view-icon-exit-full-sub {
+      display: flex;
+    }
+
+    .view-icon-full-sub > svg, .view-icon-exit-full-sub > svg {
+      pointer-events: none;
+    }
+
+    .tran-subtitle > span > svg{
+      width: 16px;
+      height: 16px;
+      pointer-events: none;
+      display: inline-flex !important;
+      vertical-align: baseline !important;
+    }
+    
+    .view-icon-copy-main-sub > svg{
+      pointer-events: none;
+      color: #FFCC00
+    }
+
+    .iconCrownGoPro{
+      padding-left: 0 !important;
+      padding-right: 8px !important;
+    }
+    .view-icon-copy-tran-sub > svg{
+      pointer-events: none;
+      color: #0CB1C7
+    }
+
+    </style></head>
+
+<body style="">
+
+<!-- start header -->
+<div class="header">
+  <div class="logobx"></div>
+  <div class="blue-bar-head">
+      <div class="container">
+          Trung Tâm Thông Tin 
+      </div>           
+  </div>
+</div>
+
+
+<!-- start menu with icons -->
+<div class="container">
+  <div class="mainbx">
+      <!-- MAIN MENUS -->
+      <div class="row">
+          <div id="menucontent">
+
+<!-- start menu with icons -->
+<div class="container">
+  <div class="mainbx">
+      <div class="nav-bx">
+          <ul class="nav-ico">
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                  <li>
+                      <a href="FAQ_general_vi-vn.shtml" id="faq_menu">
+                          <i class="icon icon-faq"></i><br>
+                          CÂU HỎI THƯỜNG GẶP
+                      </a>
+                  </li>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                  <li>
+                      <a href="rules_sports_vi-vn.shtml" id="rules_menu">
+                          <i class="icon icon-rules"></i><br>
+                          QUY ĐỊNH CÁ CƯỢC
+                      </a>
+                  </li>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                  <li>
+                      <a href="tutorial_registration_vi-vn.shtml" id="tut_menu">
+                          <i class="icon icon-tutorial"></i><br>
+                          HƯỚNG DẪN
+                      </a>
+                  </li>
+              </div>
+              <div class="col-md-3 col-sm-3 col-xs-3">
+                  <li>
+                      <a href="termOfUse_vi-vn.shtml" id="terms_menu" class="active">
+                          <i class="icon icon-terms"></i><br>
+                          ĐIỀU KIỆN SỬ DỤNG
+                      </a>
+                  </li>
+              </div>
+          </ul>
+      </div>
+
+
+      <!-- start secondary toggle menus -->
+      <div class="col-lg-12">
+          <div class="sub-menusbx" id="submenu">
+          
+<nav role="navigation" class="navbar navbar-default">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+      <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+      <span class="menu-select" id="menu-select">Điều Kiện Sử Dụng</span>
+  </div>
+  <!-- Collection of nav links and other content for toggling -->
+  <div id="navbarCollapse" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+          <li class="active hidden-xs"><a href="termOfUse_vi-vn.shtml">Điều Kiện Sử Dụng</a></li>
+          <li><a href="termOfUse_responsibleGaming_vi-vn.shtml">Chơi Có Trách Nhiệm</a></li>
+      </ul>
+  </div>
+</nav></div>
+      </div>
+  </div>       
+</div>  
+<script>
+  $(document).ready(function () {
+      var page = window.location.pathname.split('/').slice(-1)[0];
+      var category = page.substr(0, page.indexOf('_')); 
+
+      switch (category)
+      {
+      case "FAQ": 
+          $("#faq_menu").addClass('active');
+          $.get("menus/FAQ_submenu_vi-vn.shtml", function(a){
+            $("#submenu").append(a);
+              setTimeout(function() {
+               subCat();
+              },1);
+          });
+         break;
+      case "rules": 
+          $("#rules_menu").addClass('active');
+          $.get("menus/rules_submenu_vi-vn.shtml", function(a){
+            $("#submenu").append(a);
+              setTimeout(function() {
+               subCat();
+              },1);
+          });
+         break;
+      case "tutorial": 
+          $("#tut_menu").addClass('active');
+          $.get("menus/tutorial_submenu_vi-vn.shtml", function(a){
+            $("#submenu").append(a);
+              setTimeout(function() {
+               subCat();
+              },1);
+          });
+         break;
+      case "termOfUse": 
+          $("#terms_menu").addClass('active');
+          $.get("menus/term_submenu_vi-vn.shtml", function(a){
+            $("#submenu").append(a);
+              setTimeout(function() {
+               subCat();
+              },1);
+          });
+         break;
+           default: 
+          $("#faq_menu").addClass('active');
+          $.get("menus/FAQ_submenu_vi-vn.shtml", function(a){
+            $("#submenu").append(a);
+              setTimeout(function() {
+               subCat();
+              },1);
+          });
+         break;
+      }
+
+      function subCat() {
+          var page = window.location.pathname.split('/').slice(-1)[0];
+
+           $("#navbarCollapse a").each(function () {
+              var link = $(this).attr("href");
+              if(link == page){
+                  $(this).parent().addClass('active');
+                  $(this).parent().addClass('hidden-xs');
+                  if($(this).parent().hasClass('hidden-xs')){
+                      var activemenu = $(this).text();
+                      $("#menu-select").text(activemenu);
+                  }
+              }
+           });
+      }
+
+  });
+</script>
+</div>  
+      </div>
+
+
+      <!-- start accordion menus -->
+      <div class="col-lg-12">
+          <div class="menu-collapse">
+              <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading1">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                1. Giới Thiệu Chung
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1">
+                        <div class="panel-body">
+                            
+                              <ol class="nostyle1">
+                              <li>
+                                <span>1.1</span>
+                                <p>Bằng việc sử dụng ( bao gồm cả tên miền phụ) của trang web DV388.com hoặc bất kì đường dẫn nào có liên quan khác ( trang web ) , các
+                                phần mềm, ứng dụng di động và các mạng xã hội khác được chúng tôi đăng ký thì đều đồng ý ràng buộc với tất cả các Điều Điều Kiện Sử
+                                Dụng ("T&amp;C") và áp dụng quy định đối với các sản phẩm cá cược của chúng tôi, và quý khách được coi là đã chấp nhận và hiểu rõ tất
+                                cả Điều Kiện Sử Dụng.</p>
+                              </li>
+                              <li>
+                                <span>1.2</span>
+                                <p>Vui lòng xem phần Điều Kiện Sử Dụng trong quá trình quý khách đăng ký tài khoản trước khi nhấp chọn "Xác Nhận" hoàn thành việc đăng
+                                ký.</p>
+                              </li>
+                              <li>
+                                <span>1.3</span>
+                                <p>Quý khách hoàn toàn hiểu và đồng ý ràng buộc với tất cả Điều Kiện Sử Dụng trong tài liệu này và chúng tôi có thể thay đổi bất kì lúc
+                                nào mà không cần thông báo trước.</p>
+                              </li>
+                              <li>
+                                <span>1.4</span>
+                                <p>Quý khách cần có trách nhiệm đọc và xem qua Điều Kiện Sử Dụng, cùng với các quy tắc của tất cả sản phẩm và các trò chơi mà quý khách
+                                chọn để tham gia. Tất cả Quy Tắc có thể tìm kiếm trong mục "Các Quy Tắc"trong trang web. Công ty có quyền thêm hoặc hủy bỏ các trò chơi
+                                trong trang web mà không cần thông báo trước.</p>
+                              </li>
+                              <li>
+                                <span>1.5</span>
+                                <p>Như bạn đã biết, các quyền truy cập và / hoặc sử dụng trang web có thể bất hợp pháp và bị hạn chế tại một số quốc gia (bao gồm, ví
+                                dụ, Hoa Kỳ, Singapore, Đài Loan, Hồng Kông, Anh, Pháp, Guadeloupe. Guyana, Martinique và Reunion). Bạn cần có trách nhiệm xác định bằng
+                                cách truy cập và/hoặc tham gia phù hợp với pháp luật trong thẩm quyền của bạn và bạn cần bảo đảm với chúng tôi rằng cá cược là không
+                                bất hợp pháp tại quốc gia nơi bạn cư trú.<br>
+                                Thêm Lưu ý: Tất cả các trò chơi tại Club Crescendo bị hạn chế ở các nước như Italy và Bỉ.</p>
+                              </li>
+                            </ol>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading2">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                2. Tài Khoản Cá Cược
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                        <div class="panel-body">
+                              
+                              <ol class="nostyle1">
+                              <li>
+                                <span><b>2.1</b></span>
+                                <p><b>Thành Viên Mới Đăng Ký</b></p>
+                                <ol class="nostyle2">
+                                  <li>
+                                    <span>2.1.1</span>
+                                    <p>Thành viên cần tạo tài khoản tiền thật và gửi tiền trước khi tham gia chơi tiền thật. 
+                                  </li>
+                                  <li>
+                                    <span>2.1.2</span>
+                                    <p>Thành viên cần cung cấp đầy đủ họ tên trong quá trình tạo tài khoản và cần trùng tên chính xác như trong Hộ Chiếu hoặc CMND. Vui
+                                    lòng tham khảo 2.2 và 3.</p>
+                                  </li>
+                                  <li>
+                                    <span>2.1.3</span>
+                                    <p>Thành viên vui lòng lựa chọn tiền tệ ưa thích trước khi tạo tài khoản. Thành viên không thể tiến hành thay đổi tiền tệ khi tài
+                                    khoản đã tạo thành công.</p>
+                                  </li>
+                                  <li>
+                                    <span>2.1.4</span>
+                                    <p>DV388.com là duy nhất có quyền cung cấp và chỉ định các loại ngân hàng khác nhau để hoạt động, tiếp nhận và/hoặc các quỹ thay mặt
+                                    DV388.com</p>
+                                  </li>
+                                  <li>
+                                    <span>2.1.5</span>
+                                    <p>Thành viên chỉ có thể có một tài khoản đăng ký trên trang web này. Nếu quý khách mở nhiều hơn một tài khoản, tất cả các tài khoản
+                                    quý khách đăng ký có thể bị khóa và đóng. DV388.com có quyền chấm dứt hoặc đình chỉ tất cả các tài khoản hoặc cho phép một tài khoản
+                                    duy nhất hoặc phần còn lại tài khoản có thể bị khóa hoặc đóng.Vui lòng tham khảo kết quả các Điều Kiện Sử Dụng trong mục 2.3, số dư
+                                    và tiền thắng cược có thể bị hủy từ tài khoản thành viên.</p>
+                                  </li>
+                                  <li>
+                                    <span>2.1.6</span>
+                                    <p>Quý khách cần phải trên 18 tuổi mới có thể tạo tài khoản. Chúng tôi có quyền yêu cầu cung cấp các bằng chứng về độ tuổi từ thành
+                                    viên và đình chỉ tài khoản đến khi các tài khoản được xác minh thỏa đáng.</p>
+                                  </li>
+                                  <li>
+                                    <span>2.1.7</span>
+                                    <p>Tạo tài khoản và truy cập trang web ( bao gồm trang dự phòng DV388.com hoặc tất cả các đường dẫn khác, tải ứng dụng,các ứng dụng di
+                                    động) đều bị cấm truy cập từ bất kì lãnh thổ, quốc gia từ Philippines, Mỹ, Đài Loan, Hong Kong, Singapore nơi mà tất cả giao dịch
+                                    liên quan đến việc cá cược trái phép sẽ bị hủy bỏ và tài khoản quý khách sẽ bị kết thúc hoạt động của các tài khoản khác và/hoặc chấm
+                                    dứt Thỏa thuận với quí khách.</p>
+                                  </li>
+                                  <li>
+                                    <span>2.1.8</span>
+                                    <p>Trách nhiệm của riêng quí khách là phải đảm bảo rằng luật áp dụng cho quí khách và không cấm quí khách sử dụng và truy cập vào
+                                    trang Web và thông tin chứa đưng trên đó, tải về và cài đặt phần mềm và/hoặc sử dụng và tham gia vào các Dịch vụ</p>
+                                  </li>
+                                  <li>
+                                    <span>2.1.9</span>
+                                    <p>Quý khách hiểu việc tham gia và chơi các trò chơi thì đồng nghĩa là nhận thức và đồng ý với nguy cơ mất tiền gửi vào tài khoản cá
+                                    cược của quý khách.</p>
+                                  </li>
+                                  <li>
+                                    <span>2.1.10</span>
+                                    <p>Thành viên không được có bất kì gian lận, sữa chữa, cấu kết/ thông đồng ( ví dụ: chuyển tiền qua lại khi tham gia) hoặc các hoạt
+                                    động trái pháp luật khác liên quan đến sự tham gia của quý khách trong bất kì trò chơi, các sản phẩm và các ứng dụng và không sử dụng
+                                    bất kì các phần mếm hỗ trợ như robot, kỹ thuật hoặc phần mềm/phần cứng thiết bị hỗ trợ quý khách tham gia trong bất kì trò chơi, các
+                                    sản phẩm hay các ứng dụng. Vui lòng tham khảo 2.2</p>
+                                  </li>
+                                </ol>
+                              </li>
+                              <li>
+                                <span><b>2.2</b></span>
+                                <p><b>Thông Tin Tài Khoản</b></p>
+                                <ol class="nostyle2">
+                                  <li>
+                                    <span>2.2.1</span>
+                                    <p>Tất cả các vé cược sẽ được giữ nếu tên đăng nhập và mật khẩu của quý khách được nhập chính xác (đăng nhập thành công) hay không
+                                    được phép hoặc thay mặt quý khách. Vui lòng tham khảo 2.3</p>
+                                  </li>
+                                  <li>
+                                    <span>2.2.2</span>
+                                    <p>Vui lòng đăng nhập tài khoản và yêu cầu thay đổi mật khẩu ngay lập tức nếu quý khách cảm thấy có người khác biết tên đăng nhập và
+                                    mật khẩu của quý khách.</p>
+                                  </li>
+                                  <li>
+                                    <span>2.2.3</span>
+                                    <p>Quý khách có thể truy cập và đặt cược trong tài khoản bản thân và không được có bất kì người đại diện thay thế nào khác.</p>
+                                  </li>
+                                  <li>
+                                    <span>2.2.4</span>
+                                    <p>Quý khách không mang quốc tịch Philippines, Mỹ, Đài Loan, Hong Kong và Singapore.</p>
+                                  </li>
+                                  <li>
+                                    <span>2.2.5</span>
+                                    <p>Tất cả thông tin quý khách cung cấp và tạo trong hệ thống là chân thật, đầy đủ và chính xác và quý khách cần thông báo ngay lập
+                                    tức cho DV388.com nếu có bất kì thay đổi thông tin.</p>
+                                  </li>
+                                  <li>
+                                    <span>2.2.6</span>
+                                    <p>Quý khách có trách nhiệm báo cáo và thanh toán bất kỳ loại thuế áp dụng của quý khách theo pháp luật liên quan cho bất kì tiền
+                                    thắng cược mà quý khách nhận được từ DV388.com</p>
+                                  </li>
+                                </ol>
+                              </li>
+                              <li>
+                                <span><b>2.3</b></span>
+                                <p><b>Đình Chỉ và Khóa Tài Khoản</b></p>
+                                <ol class="nostyle2">
+                                  <li>
+                                    <span>2.3.1</span>
+                                    <p>DV388.com có quyền khóa hoặc đình chỉ tài khoản của quý khách mà không cần đưa ra bất kì thông báo nào và lý do có thể dẫn đến việc
+                                    hủy bỏ số dư và tiền thắng cược từ tài khoản quý khách nếu:</p>
+                                    <ol class="nostyle2 abc">
+                                      <li>
+                                        <span>(a)</span>
+                                        <p>Hơn một tài khoản cá cược ( trùng thông tin/ nhiều tài khoản) và hoặc cố ý làm như để gian lận tiền khuyến mãi</p>
+                                      </li>
+                                      <li>
+                                        <span>(b)</span>
+                                        <p>DV388.com cho rằng quý khách đã sử dụng trang web, tải phần mêm và các ứng dụng với mục đích gian lận hoặc cho mục đích bất hợp
+                                        pháp và/hoặc không hợp pháp.</p>
+                                      </li>
+                                      <li>
+                                        <span>(c)</span>
+                                        <p>DV388.com cho rằng quý khách sử dụng trang web, tải phần mềm , các ứng dụng và các phương pháp ngân hàng không công bằng , cố ý
+                                        gian lận, tạo rủi ro và bất kì đường dẫn liên quan đến DV388.com</p>
+                                      </li>
+                                      <li>
+                                        <span>(d)</span>
+                                        <p>Nếu DV388.com đóng cửa hoặc tạm ngưng vì bất cứ lý do nào trong mục (a) đến (c) như trên, quý khách phải chịu trách nhiệm cho bất
+                                        kì tất cả khiếu nại, thua cược, giá cược và các chi phí phát sinh khác cùa DV388.com và tất cả các đường dẫn liên quan đến, quý khách
+                                        cần phải bồi thường và giữ DV388.com vô hại trong bất kì chi phí.</p>
+                                      </li>
+                                      <li>
+                                        <span>(e)</span>
+                                        <p>DV388.com có quyền giữ hoặc trừ tất cả số dư bao gồm cả tiền gửi hay nếu không sẽ bị thanh toán trong đó bao gồm tiền thắng cược,
+                                        điểm thưởng, tiền về cỏ và tiền khuyến mãi , tham khao mục (a) đến (e) trên.</p>
+                                      </li>
+                                    </ol>
+                                  </li>
+                                  <li>
+                                    <span>2.3.2</span>
+                                    <p>DV388.com có tuyệt đối có quyền duy nhất tiếp tục đình chỉ hoặc khóa tất cả tài khoản mà DV388.com có đủ điều kiện tin rằng tất cả tài
+                                    khoản bị đình chỉ/ khóa đều được tạo cùng một khách hàng, một nhóm/ tổ hợp các thành viên. Tất cả vé cược, tiền khuyến mãi và tiến
+                                    thằng cược sẽ được hủy bỏ trên tất cả các tài khoản khác có liên quan mà không cần đưa ra bất kì thông báo nào. Vui lòng tham khảo
+                                    2.3</p>
+                                  </li>
+                                </ol>
+                              </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading3">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                3. Gửi Tiền và Rút Tiền
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+                        <div class="panel-body">
+                            
+                              <ol class="nostyle1">
+                              <li>
+                                <span><b>3.1</b></span>
+                                <p><b>Gửi Tiền</b></p>
+                                <ol class="nostyle2">
+                                  <li>
+                                    <span>3.1.1</span>
+                                    <p>Quý khách cần phải chọn tiền tệ ưa thích trước khi tiến hành đăng ký tài khoản mới. Chúng tôi cung cấp 8 loại tiền tệ khách nhau:
+                                    USD, VND, RMB, IDR, KRW, MYR, THB và JPY. Quý khách sẽ không thể thay đổi tiền tệ sau khi tài khoản đã được đăng ký tài khoản
+                                    thành công. Quý khách sẽ chịu tỷ giá tiền tệ quy đổi theo thời điểm nếu tiền tệ quý khách gửi tiền khác với loại tiền tệ khi đăng ký
+                                    tài khoản.</p>
+                                  </li>
+                                  <li>
+                                    <span>3.1.2</span>
+                                    <p>Tiền gửi của quý khách chuyển vào cần phải trải qua một vòng cược và đúng quy định của DV388.com trước khi tiến hành rút tiền. Nếu
+                                    số tiền gửi vào chưa đạt đủ một vòng cược trước khi tiến hành rút tiền, và nếu quý khách có nhận tiền khuyến mãi trong quá trình
+                                    khuyến mãi, DV388.com có thể tiến hành hủy bỏ tiến khuyến mãi, tiền thắng cược mà quý khách nhận trong chương trình khuyến mãi, và
+                                    DV388.com có thể tính phí khi xử lý các khoản rút tiền của quý khách. GIá trị tiền rút có thể bị giảm xuống cho phù hợp. Vui lòng tham
+                                    khảo 3.2</p>
+                                  </li>
+                                  <li>
+                                    <span>3.1.3</span>
+                                    <p>Hệ thống sẽ từ chối yêu cầu rút tiền của quý khách nếu số tiền rút đó chưa tham gia đặt cược hoặc chưa đáp ứng đủ vòng cược yêu
+                                    cầu trước khi thực hiện rút tiền.</p>
+                                  </li>
+                                  <li>
+                                    <span>3.1.4</span>
+                                    <p>Quý khách có thể bắt đầu tiến hành tham gia cược khi gửi tiền thành công vào tài khoản và chuyển quỹ vào trong trò chơi quý khách
+                                    muốn tham gia. để biết thêm chi tiết trong việc gửi tiền và chuyển
+                                    quỹ vào tài khoản như thế nào. Xin vui lòng lưu ý là một số ngân hàng có thể không có trong quốc gia của quý khách. Truy cập : <li><a href="https://tawk.to/chat/6365075bb0d6371309cd48b6/1gh1a9fj5">Dịch Vụ Khách Hàng</a></li> để trò chuyện trực tuyến với bộ phận hỗ trợ khách hàng để biết thêm chi tiết.</p>
+                                  </li>
+                                  <li>
+                                    <span>3.1.5</span>
+                                    <p>Chuyển tiền vào tài khoản của quý khách có thể bị tính phí ngân hàng, tổ chức tài chính và cung cấp dịch vụ thanh toán của bên thứ
+                                    ba. Quý khách đồng ý chịu phí giao dich gửi tiền và hoặc có quy định khác và thông báo DV388.com rằng phí giao dịch chịu bởi DV388.com
+                                    khi gửi tiền vào tài khoản của quý khách. 
+                                    <span>3.1.6</span>
+                                    <p>Quý khách chỉ nên chuyển tiền vào tài khoản DV388 với mục đích cá cược vào trang web. Chúng tôi sẽ đình chỉ và khóa tài khoản của
+                                    quý khách nếu chúng tôi có đủ lý do để tin rằng quý khách đã vi phạm các Điều Kiện Sử Dụng của DV388.com, và hoặc tin rằng quý khách có
+                                    hành động gian lận trong web DV388.com hoặc các đường dẫn thay thế khác. Trong hoàn cảnh như vậy, chúng tôi có thể yêu cầu bồi thường
+                                    hoặc hủy bỏ số tiền thắng cược, tiến khuyến mãi, tiền về cỏ, điểm thưởng và phí giao dịch từ tài khoản của quý khách.</p>
+                                  </li>
+                                  <li>
+                                    <span>3.1.7</span>
+                                    <p>Nếu có nhầm lẫn trong tín dụng hoặc trùng lệnh giao dịch khi số tiền chuyển quý khách gửi vào tăng lên không chính xác do lỗi của
+                                    con người, kỹ thuật và/hoặc hệ thống sai, DV388.com không ảnh hưởng khi sử dụng các biện pháp khác để khiếu nại và khấu trừ giá trị
+                                    tiền tệ đã cập nhật sai trong tài khoản của quý khách. Khi quý khách đã sử dụng số tiền cập nhật thêm hoặc đã rút tiền trong tài
+                                    khoản quý khách mà số dư đó không thuộc về quý khách thì DV388.com có quyền khấu trừ số nợ đó mà quý khách đã nợ của DV388.com. Vui lòng
+                                    tham khảo 3.4</p>
+                                  </li>
+                                </ol>
+                              </li>
+                              <li>
+                                <span><b>3.2</b></span>
+                                <p><b>Rút Tiền</b></p>
+                                <ol class="nostyle2">
+                                  <li>
+                                    <span>3.2.1</span>
+                                    <p>Lệnh rút tiền chỉ được thực hiện khi họ&amp; tên trong tài khoản DV388 trùng với chủ tài khoản ngân hàng. Vui lòng tham khao mục
+                                    2</p>
+                                  </li>
+                                  <li>
+                                    <span>3.2.2</span>
+                                    <p>Nếu có thể, tất cả yêu cầu lệnh rút tiền có thể thanh toán vào trong tài khoản ngân hàng mà quý khách đã tiến hành thực hiện gửi
+                                    tiền trước đó trừ khi có quy định khác và được thông báo từ DV388.com</p>
+                                  </li>
+                                  <li>
+                                    <span>3.2.3</span>
+                                    <p>Quý khách cần phải đăng nhập vào tài khoản và chọn mục rút tiền trên trang web. Xác nhận lệnh rút tiền là tùy thuộc vào đủ số dư
+                                    của quý khách ngay tại thời điềm đó.</p>
+                                  </li>
+                                  <li>
+                                    <span>3.2.4</span>
+                                    <p>Số tiền yêu cầu rút sẽ được trừ từ tài khoản của quý khách sau khi xác nhận xong (vui lòng tham khảo 3.2.3). Nhấp chọn "Hủy Bỏ"
+                                    lệnh rút tiền nếu quý khách muốn hủy lệnh rút tiền trước khi DV388.com tiến hành thanh toán lệnh giao dịch. Bất kì lệnh rút tiền đều
+                                    không thể hủy bỏ nếu lệnh giao dịch đã tiến hành và số tiền rút đang tiến hành cập nhật vào tài khoản ngân hàng của quý khách và.hoặc
+                                    chế độ ưa thích.</p>
+                                  </li>
+                                  <li>
+                                    <span>3.2.5</span>
+                                    <p>Chúng tôi có quyền hủy bỏ, khấu trừ và tính phí đối với các khoản phát sinh có liên quan nếu chúng tôi phải trả khoản phụ thu của
+                                    quý khách.</p>
+                                  </li>
+                                  <li>
+                                    <span>3.2.6</span>
+                                    <p>DV388.com có quyền yêu cầu xác nhận và cung cấp các thông tin chứng từ hợp lệ để tiến hành kiểm tra và thẩm định đối với các lệnh
+                                    yêu cầu rút tiền</p>
+                                  </li>
+                                  <li>
+                                    <span>3.2.7</span>
+                                    <p>Rút tiền có thể bị tính phí dựa trên các khoản yêu thích hoặc phương pháp. DV388.com không tính phí rút tiền của quý khách. Quý
+                                    khách cần liên hệ với ngân hàng để được tư vấn về các khoản phí phải đóng nếu có</p>
+                                  </li>
+                                  <li>
+                                    <span>3.2.8</span>
+                                    <p>Quý khách có trách nhiêm báo cáo tiền thằng thua cho thẩm quyền mục đích thuế của mình</p>
+                                  </li>
+                                </ol>
+                              </li>
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading4">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                4. Khuyến Mãi Cho Thành Viên
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                        <div class="panel-body">
+                            
+                              <ol class="nostyle1">
+                              <li>
+                                <span>4.1</span>
+                                <p>Chương trình khuyến mãi và tiền thưởng của DV388.com chỉ giới hạn cho một thành viên, gia đình, địa chỉ nhà, địa chỉ email, số điện
+                                thoại , cùng tài khoản ngân hàng, địa chỉ IP trừ khi có quy định khác trong các điều khoản ban hành duy nhất và tuyệt đối bởi DV388.com.
+                                Tài khoản của quý khách sẽ được chính DV388.com xác minh và phê duyệt. DV388.com có quyền cho phép/phê duyệt hoặc đình chỉ/ khóa tài khoản.
+                                Vui lòng tham khảo mục 2.3</p>
+                              </li>
+                              <li>
+                                <span>4.2</span>
+                                <p>Tham khảo mục 2.3 và 3.3.1.1. DV388.com có quyền hủy bỏ các lệnh khuyến mãi cho bất kì thành viên hoặc nhóm/tổ hợp thành viên bất kì
+                                lúc nào và có quyết định duy nhất tuyệt đối</p>
+                              </li>
+                              <li>
+                                <span>4.3</span>
+                                <p>Chương trình khuyến mãi DV388.com, tiền cược miễn phí, tiền khuyến mãi chỉ áp dụng cho thành viên có một tài khoản hợp lệ và đã thực
+                                hiện giao dịch gửi tiền thành công.</p>
+                              </li>
+                              <li>
+                                <span>4.4</span>
+                                <p>Thành viên cần phải đọc, hiểu và đồng ý cho tất cả điều kiện sử dụng chương trình khuyến mãi (T&amp;C) cung cấp trong mỗi chương
+                                trình khuyến mãi. Nếu có bất kì điều kiện sử dụng trong chương trình khuyến mãi có vi phạm hoặc có bằng chứng về thành viên có hành
+                                động gian lận hoặc cố ý đặt cược một loạt, thông đồng hay chuyển tiền cược qua lại thực hiện bởi thành viên, một nhóm/tổ hợp/chuyên
+                                nghiệp do tiền khuyến mãi, tiền về cỏ, tiền cược miễn phí hoặc bất kỳ chương trình khuyến mãi khác. DV388.com có quyền yêu cầu bồi
+                                thưởng, vô hiệu hoặc hủy bỏ tất cả khuyến mãi, tiền thắng cược và phí thanh toán từ tài khoản thành viên và/hoặc tài khoản nhóm Vui
+                                lòng tham khảo 2.3</p>
+                              </li>
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading5">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                5. Giải Quyết và Thanh Toán
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                        <div class="panel-body">
+                            
+                              <ol class="nostyle1">
+                              <li>
+                                <span><b>5.1</b></span>
+                                <p><b>Giải Quyết</b></p>
+                                <ol class="nostyle2">
+                                  <li>
+                                    <span>5.1.1</span>
+                                    <p>Tất cả vé cược trong Thể Thao và Qui Luật Trò Chơi bao gồm cả tiền cược tối thiểu và tiền cược tối đa được thiết lập trong mỗi sản
+                                    phẩm</p>
+                                  </li>
+                                  <li>
+                                    <span>5.1.2</span>
+                                    <p>DV388.com có quyền đình chỉ một thị trường và/hoặc hủy bỏ các vé cược bất kì lúc nào do lỗi.DV388.com cũng có quyền ngưng đặt cược
+                                    trong bất kì thị trường, trò chơi hoặc sản phẩm bất cứ lúc nào mà không cần thông báo</p>
+                                  </li>
+                                  <li>
+                                    <span>5.1.3</span>
+                                    <p>Tất cả các vé cược sẽ được hủy bỏ hay tính lại và hoặc điều chỉnh từ tài khoản quý khách nếu có kết quả không chính xác được xác
+                                    nhận và giải quyết cho tài khoản quý khách. Các lỗi không lường trước do lỗi kỹ thuật hay lỗi con người hoặc các quy định khác, số dư
+                                    sẽ thuộc về DV388.com</p>
+                                    <ol class="nostyle2 abc">
+                                      <li>
+                                        <span>(a)</span>
+                                        <p>Kết quả không chính xác và việc giải quyết.</p>
+                                      </li>
+                                      <li>
+                                        <span>(b)</span>
+                                        <p>Nhẩm lẫn trong cập nhât hoặc cập nhật trong tài khoản thành viên không chính xác</p>
+                                      </li>
+                                      <li>
+                                        <span>(c)</span>
+                                        <p>Tiền thắng cược không thuộc về quý khách</p>
+                                      </li>
+                                      <li>
+                                        <span>(d)</span>
+                                        <p>Thanh toán sai và thành viên đã tiến hành thực hiện rút tiền một phần/toàn bộ số dư mà không thuộc về thành viên đó. DV388.com
+                                        không ảnh hưởng trong các biện pháp khắc phục và có quyền truy cứu lại số tiền mà thành viên nợ của DV388.com</p>
+                                      </li>
+                                      <li>
+                                        <span>(e)</span>
+                                        <p>Điều kiện quy định của quy chế này và các quy định trong đó dẫn đến việc vô hiệu và hủy bỏ vé cược vì:<br>
+                                        Nếu địa điểm của sự kiện/ trận đấu được thay đổi</p>
+                                      </li>
+                                    </ol>
+                                  </li>
+                                  <li>
+                                    <span>5.1.4</span>
+                                    <p>Trường hợp có một sự kiện mà không có chính thức tuyến bố "Hủy Trận", việc công bố thời gian phát bóng trong sự kiện đó sẽ được
+                                    xem là "Hủy Trận".Trong trường hợp vô tình đặt cược được chấp nhận sau khi trận đấu bắt đầu hoặc đặt cược "Đang Trong Trận" được nêu
+                                    rõ trên trang web, tất cả các vé cược sẽ chấp nhận khi trận đấu kết thúc không xác định trong thời gian cược được đặt và xác nhận.
+                                    Nếu biết kết quả trận đấu, DV388.com có quyền vô hiệu vé cược, thắng hoặc thua</p>
+                                  </li>
+                                  <li>
+                                    <span>5.1.5</span>
+                                    <p>"Đang Trong Trận" ( Đang Trong Trận, Cược Đang Trong Chạy, Cược Trực Tuyến) sự kiện hoặc trận đấu, trong sự kiện chúng tôi có đủ
+                                    lý do tin rằng vé cược được đặt sau khi trận đấu kết thúc DV388.com có quyền vô hiệu sự kiện/trận đấu hoặc vé cược, thắng , thua.</p>
+                                  </li>
+                                  <li>
+                                    <span>5.1.6</span>
+                                    <p>Nếu có bằng chứng xác nhận vé cược đặt cả hai bên, hoặc đặt tương tự nhau của cùng một thành viên hoặc nhóm/tổ chức, DV388.com có đủ
+                                    lý do để tin rằng thành viên có hành vi gian lận trong hệ thống và web, DV388.com có quyền đình chỉ và/hoặc khóa tài khoản, vô hiệu,
+                                    hủy bỏ và tạm ngưng thực hiện giao dịch rút tiền.</p>
+                                  </li>
+                                  <li>
+                                    <span>5.1.7</span>
+                                    <p>Hãy đảm bảo rằng tất cả thông tin chi tiết của quý khách là chính xác trước khi quý khách xác nhận vé cược. Quý khách không thể
+                                    hủy cược hay thay đổi vé cược khi xác nhận vé cược thành công.</p>
+                                  </li>
+                                  <li>
+                                    <span>5.1.8</span>
+                                    <p>Các vé cược được chấp nhận và xác nhận nếu đặt đủ tiền vé cược và có giá trị trong tài khoản của quý khách.Chỗ đặt cươc được chấp
+                                    nhận nếu tài khoản quý khách nhận được một quỹ trái phép hoặc số dư đột nhiên tăng lên trong tài khoản quý khách do lỗi kỹ thuật, cập
+                                    nhật sai, tất cả vé cược sẽ vô hiệu và hủy bỏ trong bất kì vé cược thắng/thua</p>
+                                  </li>
+                                  <li>
+                                    <span>5.1.9</span>
+                                    <p>Thành viên chấp nhận và đồng ý bị ràng buộc bởi quy tắc áp dụng trong các sản phẩm trên web. Các Quy Tắc có thể tìm dưới mục "Quy
+                                    Tắc" của phần áp dụng trang web, hoặc các quy tắc cụ thể hơn có thể xem trong từng sản phẩm</p>
+                                  </li>
+                                  <li>
+                                    <span>5.1.10</span>
+                                    <p>Nếu có tranh chấp phát sinh, quý khách và DV388.com đều đồng ý các bản ghi giao dịch DV388.com từ hệ thống sẽ được quyết định cuối
+                                    cùng</p>
+                                  </li>
+                                </ol>
+                              </li>
+                              <li>
+                                <span>5.2</span>
+                                <p><b>Thanh Toán</b></p>
+                                <ol class="nostyle2">
+                                  <li>
+                                    <span>5.2.1</span>
+                                    <p>Tiền thắng cược tối đa cho phép thành viên trong một ngày ( trong vòng 24 giờ) cho mỗi thanh toán trên số tiền thắng hoặc thanh
+                                    toán tối đa từ các cược riêng, các loại cược :</p>
+                                    <ol class="nostyle1">
+                                      <li>
+                                        <p>Thể Thao - Giới hạn 180,000 USD ( hoặc tiền tệ tương đương)</p>
+                                      </li>
+                                    </ol>
+                                  </li>
+                                </ol>
+                              </li>
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading-new1">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#new1" aria-expanded="false" aria-controls="new1">
+                                6. Anti-Money Laundering (AML) Requirements
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="new1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-new1">
+                        <div class="panel-body">
+                            <p>
+                              Để tham gia vào trang web của chúng tôi, bạn đã đồng ý với các điều khoản này (rằng) bạn là chủ sở hữu hợp pháp khi bạn nhập thông tin cá nhân của mình trong quá trình đăng ký tài khoản, và là chủ sở hữu hợp pháp của số tiền mà bạn gửi vào (bất kỳ lúc nào) trong tài khoản của mình. Chi tiết cá nhân ít nhất phải bao gồm các thông tin sau: họ tên đầy đủ, địa chỉ nhà, số điện thoại và địa chỉ email. Chúng tôi có quyền yêu cầu bản sao hộ chiếu hoặc căn cước công dân (CMND), bảng sao kê thanh toán của bạn như một phần của quy trình 'Biết khách hàng của bạn' (KYC).<br><br>
+
+                              Khi thực hiện yêu cầu rút tiền, bạn cũng có thể được yêu cầu gửi các giấy tờ tùy thân hợp lệ để chứng minh họ tên của bạn.<br><br>
+
+
+                              <b>Sự gian dối, gian lận, lạm dụng và hoạt động bất hợp pháp：</b><br>
+                              Các phương pháp sau (hoặc bất kỳ phương pháp nào) liên quan đến dịch vụ:<br>
+                              </p><ul>
+                                <li>Lạm dụng tiền thưởng hoặc các chương trình khuyến mãi khác; và / hoặc</li>
+                                <li>Mở bất kỳ Tài khoản trùng lặp nào; và / hoặc</li>
+                                <li>Thực hiện hành vi gian lận hoặc hoạt động tội phạm</li>
+                              </ul><br>
+
+                              Tất cả các hoạt động trên cấu thành "Hành động bị Cấm" và không được phép. Chúng sẽ cấu thành một sự vi phạm nghiêm trọng các Điều khoản đã được quy định.
+                              Chúng tôi sẽ thực hiện tất cả các hành động hợp lý để ngăn chặn và phát hiện các hành vi như vậy, và xác định những người chơi có liên quan nếu các hành vi này xảy ra.<br><br>
+
+                              Tuy nhiên, theo những điều trên, Chúng tôi sẽ không chịu trách nhiệm về bất kỳ mất mát hoặc thiệt hại nào mà bạn có thể phải chịu do bất kỳ "Hành động bị Cấm nào. Và bất kỳ hành động nào mà Chúng tôi thực hiện đối với những điều tương tự sẽ do Chúng tôi quyết định.<br><br>
+
+                              Chúng tôi sẽ có quyền quyết định đối với Tài khoản của bạn (và / hoặc bất kỳ Tài khoản nào khác do bạn nắm giữ), có quyền giữ lại toàn bộ hoặc một phần số dư và / hoặc thu hồi số tiền + tiền thưởng + tiền thắng cược từ Tài khoản của bạn khi phát hiện hành động bị cấm theo bất kỳ cách nào được quy cho các sự kiện được nêu trong vấn đề này.<br><br>
+
+                              <b>Đóng tài khoản hoặc chấm dứt bởi chúng tôi</b><br><br>
+
+                              Chúng tôi bảo lưu quyền, theo quyết định riêng và tuyệt đối của Chúng tôi đó là: đóng và chấm dứt Tài khoản của bạn dựa trên các Điều khoản với Chúng tôi (bất kể, bất kỳ điều khoản nào khác có trong Điều khoản và Điều kiện) trên thông báo bằng văn bản (hoặc cố gắng thông báo) cho bạn bằng cách sử dụng các thông tin liên hệ của bạn. Trong trường hợp Chúng tôi chấm dứt hợp đồng như vậy, ngay khi có thể thực hiện được một cách hợp lý theo yêu cầu của bạn, đó là hoàn trả số dư trong Tài khoản của bạn.<br><br>
+
+                              Khi Chúng tôi đóng và chấm dứt Tài khoản của bạn dựa trên các Điều khoản (Thông đồng, Gian lận, Lạm dụng và Hoạt động bị Cấm), số dư trong Tài khoản của bạn sẽ không được hoàn lại và được coi là bạn đã mất. Việc đóng và Chấm dứt Tài khoản của bạn dựa trên các Điều khoản sẽ không ảnh hưởng đến bất kỳ Cược chưa thanh toán nào, miễn là các Cược chưa thanh toán đó hợp lệ và bạn không vi phạm Điều khoản theo bất kỳ cách nào. Để tránh các vấn đề phát sinh, Chúng tôi sẽ không cập nhật bất kỳ Khoản tiền thưởng nào vào Tài khoản của bạn, cũng như bạn sẽ không được hưởng bất kỳ khoản tiền thắng cược ngẫu nhiên nào, tại bất kỳ thời điểm nào sau ngày mà tài khoản đã được đóng (cho dù chúng tôi thực hiện theo các Điều khoản hoặc để đáp ứng theo yêu cầu của bạn).                                
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading-new2">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#new2" aria-expanded="false" aria-controls="new2">
+                                7. Age Verification Policy and Identification
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="new2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading-new2">
+                        <div class="panel-body">
+                            <p>
+                              Bằng cách này, bạn cho phép chúng tôi được quyền yêu cầu xác nhận danh tính của bạn và làm rõ quyền sử dụng tài khoản và số tiền mà bạn đã đặt cược trên trang web của chúng tôi.<br><br>
+
+                              Chúng tôi có thể giữ lại bất kỳ khoản tiền nào trong tài khoản của bạn hoặc tạm ngưng tài khoản cho đến khi thông tin, độ tuổi của bạn được xác minh thành công. Nếu sau khi hoàn tất quá trình xác minh tuổi của bạn, bạn được phát hiện là chưa đủ tuổi, chúng tôi sẽ trả lại cho bạn bất kỳ khoản tiền gửi nào được thực hiện trên tài khoản, trong khi tất cả tiền thắng cược và / hoặc tiền thưởng sẽ bị hủy bỏ và tài khoản sẽ bị đóng.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading6">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                8. Chính Sách Bảo Mật
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                        <div class="panel-body">
+                            
+                              <ol class="nostyle1">
+                              <li>
+                                <span>8.1</span>
+                                <p>Chính sách bảo mật này mô tả cách thức mà DV388.com xử lý thông tin của quý khách và dữ liệu quý khách cung cấp cho chúng tôi có thể
+                                quản lý tham gia trong các sản phẩm và các trò chơi , các chức năng tổng thể và hoạt động của hệ thống và trang web. Tham khảo mục
+                                6.4</p>
+                              </li>
+                              <li>
+                                <span>8.2</span>
+                                <p>Quý khách đồng ý, thừa nhận và tán thành cho DV388.com tiến hành thực hiện thông tin của quý khách và mục đích cho phép sử dụng dữ
+                                liệu, đăng ký tài khoản và sử dụng trang web để cho phép quý khách tham gia trong các sản phẩm của chúng tôi và các trò chơi để cung
+                                cấp dịch vụ cho quý khách</p>
+                              </li>
+                              <li>
+                                <span>8.3</span>
+                                <p>DV388.com chỉ có thể sử dụng thông tin cá nhân và dữ liệu cho phép quý khách tham gia trong các sản phẩm và các trò chơi, và thực hiện
+                                các hoạt động liên quan đến sự tham gia của quý khách trong các trò chơi và các thủ tục xác minh tài khoản của quý khách.</p>
+                              </li>
+                              <li>
+                                <span>8.4</span>
+                                <p>Bằng cách gửi thông tin của quý khách và dữ liệu cho chúng tôi và sử dụng trang web, quý khách đồng ý cho tất cả các tiết lộ giữa
+                                các công ty thuộc DV388.com (bao gồm nhưng không giới hạn giao dịch chéo, nhà cung cấp , cổng thanh toán) có thể chịu trách nhiệm cho một
+                                số chức năng và hoạt động hệ thống và trang web như quy định trong chính sách bảo mật<br>
+                                Thông tin cá nhân và dữ liệu của quý khách có thể sử dụng cùng lúc với các thông tin khác với mục đích sau:</p>
+                                <ol class="nostyle2 abc2">
+                                  <li>
+                                    <span>(a)</span>
+                                    <p>Liên quan đến các giao dịch bao gồm thanh toán trực tuyến và thanh toán ngoại tuyền (truyền thống)</p>
+                                  </li>
+                                  <li>
+                                    <span>(b)</span>
+                                    <p>Giao dịch các vé cược</p>
+                                  </li>
+                                  <li>
+                                    <span>(c)</span>
+                                    <p>Quản lý tài khoản thành viên và nâng cấp hồ sơ thành viên</p>
+                                  </li>
+                                  <li>
+                                    <span>(d)</span>
+                                    <p>Tuân thủ các trách nhiệm pháp lý và dịch vụ của chúng tôi</p>
+                                  </li>
+                                  <li>
+                                    <span>(e)</span>
+                                    <p>Nghiên cứu, khảo sát và phân tích thành viên</p>
+                                  </li>
+                                  <li>
+                                    <span>(f)</span>
+                                    <p>Cung cấp khuyến mãi , các sản phẩm và hỗ trợ</p>
+                                  </li>
+                                  <li>
+                                    <span>(g)</span>
+                                    <p>Giám sát các giao Giám sát các giao dịch thành viên để kiểm tra việc gian lận, hoạt động cá cược bất thường, gian lận tiền thưởng,
+                                    thông đồng cược nhóm và gian lận.</p>
+                                  </li>
+                                </ol>
+                              </li>
+                              <li>
+                                <span>8.5</span>
+                                <p>Bộ phận hỗ trợ khách hàng của chúng tôi có thể liên hệ quý khách bằng điện thoại, email, tin nhắn (SMS) và hoặc thậm chí bằng tất cả
+                                các kênh liên hệ. Nếu các cuộc gọi đến và đi từ bộ phận hỗ trợ khách hàng của chúng tôi đều được ghi âm cho các mục địch an ninh và yêu
+                                cầu với bất kì vấn đề quý khách nhận từ nhóm hỗ trợ.</p>
+                              </li>
+                              <li>
+                                <span>8.6</span>
+                                <p>Cookies thông tin liên hệ được chuyển vào ổ cứng máy tính của quý khách. Chúng tôi sử dụng một số cookies cho việc hoạt động trang
+                                web. Vui lòng nhấp chon xóa cookies từ trình duyệt của quý khách nếu quý khách muốn xóa bất kỳ cookies nào đã được lưu trữ trên máy
+                                tính của quý khách</p>
+                              </li>
+                              <li>
+                                <span>8.7</span>
+                                <p>Bất kỳ chính sách bảo mật của chúng tôi có thay đổi sẽ được đăng trên trang này và có hiệu lực ngay lập tức</p>
+                              </li>
+                              <li>
+                                <span>8.8</span>
+                                <p>DV388.com có thể công bố giải thưởng của quý khách trên web dưới trang "Người Chiến Thắng" và trong thị trường cụ thể (ví dụ: bản tin,
+                                biểu ngữ). Các ấn phẩm này sẽ bao gồm các thành viên" Tên Đăng Nhập" và số tiền thắng.</p>
+                              </li>
+                              <li>
+                                <span>8.9</span>
+                                <p>
+                                  DV388 cam kết bảo vệ sự riêng tư của bất kỳ thông tin cá nhân nào mà bạn có thể chọn cung cấp cho chúng tôi. "Thông tin cá nhân" là bất kỳ thông tin nào về bạn và có thể bao gồm tên, địa chỉ, ngày sinh, địa chỉ email của bạn, bao gồm loại phương thức thanh toán bạn định sử dụng và bất kỳ thông tin nào khác mà bạn có thể muốn cung cấp.<br><br>
+
+                                  Bạn sẽ được yêu cầu cung cấp Thông tin cá nhân của mình cho mục đích đăng ký và mở tài khoản với chúng tôi, và khi tài khoản được mở, dữ liệu cá nhân của bạn có thể được xử lý cho các mục đích chống rửa tiền (AML). Khi bạn đã là khách hàng và bạn phải sử dụng tên đăng nhập và mật khẩu đã chọn để đăng nhập trang web. Cookie là một phần dữ liệu được lưu trên máy tính của Khách hàng và được liên kết với thông tin người dùng cụ thể. Việc sử dụng cookie không liên quan đến bất kỳ thông tin nhận dạng cá nhân nào khi Khách hàng truy cập trang web của chúng tôi. Hầu hết các trình duyệt internet chấp nhận cookie trên cơ sở tiêu chuẩn. Khách hàng có thể hủy kích hoạt việc sử dụng cookie trong cài đặt bảo mật của họ. Khi tải trang web, máy chủ sẽ ghi lại địa chỉ IP của máy tính yêu cầu, hệ điều hành, cũng như loại trình duyệt mà khách hàng sử dụng.<br><br>
+
+                                  Chúng tôi sẽ xử lý Thông tin Cá nhân của bạn theo luật bảo vệ dữ liệu hiện hành. Chúng tôi xử lý Thông tin Cá nhân của bạn cho các mục đích sau: quản lý tài khoản của bạn, duy trì hồ sơ của riêng chúng tôi, giám sát việc sử dụng trang web, chất lượng dịch vụ và thông báo cho bạn về các sản phẩm và dịch vụ mà bạn có thể quan tâm theo thời gian. Mọi bản lưu giữ vẫn là tài sản của DV388 và sẽ được sử dụng duy nhất và nghiêm ngặt cho các mục đích đã nói ở trên.
+                                  Để đảm bảo chất lượng dịch vụ tốt, chúng tôi có thể giám sát bất kỳ thông tin liên lạc nào của bạn với chúng tôi dù bằng văn bản hay bằng thư điện tử. E-mail không được mã hóa đến và đi từ các khu vực công cộng hoặc riêng tư của trang web này.<br><br>
+
+                                  Trong từng trường hợp cụ thể, chúng tôi sử dụng các dịch vụ được cung cấp bởi các bên thứ ba hoặc bởi một công ty liên kết hoặc đối tác kinh doanh. Việc sử dụng dữ liệu nói trên của họ bị hạn chế trong phạm vi cần thiết để hoàn thành nhiệm vụ hoặc việc cung cấp dịch vụ tương ứng. Do đó, chỉ những dữ liệu tối thiểu bắt buộc sẽ được cung cấp. Các bên thứ ba sẽ được coi là bộ kiểm soát dữ liệu chung hoặc bộ xử lý dữ liệu tùy từng trường hợp và các biện pháp bảo vệ thích hợp sẽ được thực thi giữa DV388 và bên thứ ba đối với dữ liệu cá nhân của bạn.<br><br>
+
+                                  Chính sách Bảo mật này được đặt ra bằng một số ngôn ngữ khác nhau. Trong khi phiên bản tiếng Anh sẽ luôn có sẵn, trong trường hợp có sự khác biệt hoặc tranh chấp giữa các phiên bản ngôn ngữ khác nhau, phiên bản có lợi nhất cho Khách hàng sẽ được áp dụng.
+                                </p>
+                              </li>
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading7">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                9. Thủ Tục Cá Cược
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+                        <div class="panel-body">
+                            <p>Phần này sẽ đề cập đến các quy tắc chung và các sản phẩm trò chơi nói riêng, các quy tắc sản phẩm riêng có thể tìm thấy tring các liên
+                            kết riêng biệt từ trang này.</p>
+                            <p>DV388.com sẽ không chịu trách nhiệm và đưa ra quyết định tuyệt đối để vô hiệu, hủy bỏ và khắc phục các lỗi nếu có một lỗi hoặc bất kỳ
+                            lỗi nào đối với đặt cược của quý khách bao gồm cả nơi:</p>
+                            
+                            <ol class="nostyle1 adjust2">
+                              <li>
+                                <b>(a) Cá Cược Thể Thao</b>
+                                <ul>
+                                  <li>Không đăng đúng tỷ lệ cược / Cược Chấp/ Chênh Lệch/ và tất cả các kiểu cược khác</li>
+                                  <li>Hệ thống tiếp tục chấp nhận phiếu cược khi thị trường đóng cửa hay sự kiện/trận đấu/thị trường đóng</li>
+                                  <li>Sai kết quả và thanh toán.</li>
+                                  <li>Sai giá trước khi trận đấu bắt đầu, đang cược trong trận hoặc sau sự kiện/trận đấu/thị trường. DV388.com sẽ cố gắng khắc phục các
+                                  sai sót ngay lập tức hoặc lỗi được xác định bất kỳ các cược sẽ được xử lý và giải quyết tại DV388.com, và chỉnh sửa giá tùy ý và tuyệt
+                                  đối cho phép chọn hủy cược.</li>
+                                  <li>Lịch thi đấu không chính xác, tên đăng ký tham gia và tên, đội, địa điểm đã được trích dẫn, các vé cược được đặt trong các sự
+                                  kiện/trận đấu hoặc tham gia sẽ bị xem là vô hiệu</li>
+                                  <li>Trong trường hợp sau khi quý khách thực hiện vé cược và xác nhận, mà bị gián đoạn bởi hệ thống liên lạc thất bại hoặc thông tin
+                                  liên lạc thất bại hoặc hệ thống máy tính mà quý khách không thể tiến hành tiếp tục đặt cược, đặt cược sẽ kết thúc và hệ thống phục hồi
+                                  có thể xem được kết quả vé cược trong trang " Tài Khoản Của Tôi"</li>
+                                  <li>Các vé cược trễ được chấp nhận sau khi một sự kiện/trận đấu đã khởi động, tất cả các vé cược sẽ thanh toán như sau:
+                                    <ul>
+                                      <li>Nếu sự kiện thể thao trong trạng thái cho phép cược, tỷ lệ cược trong thời điểm đặt cược sẽ có sự thay đổi ( tỷ lệ thay đổi nếu
+                                      ít hơn 1/1000 sẽ được coi là cược vô hiệu hoặc cược bị hủy), ngoại trừ kết quả đã được biết đến và vé cược xem như vô hiệu tr ong
+                                      trường hợp này.</li>
+                                      <li>Khi sự kiện thể thao trong trạng thái trực tiếp, tỷ lệ cược sẽ được ngưng nếu như giữa đội bóng hoặc vận động viên không thế
+                                      mạnh cân bằng (ví dụ như điểm số, bàn thắng vv..). Trường hợp giữa đội bóng hoặc vận động viênxảy ra bàn thắng và trận đấu trong khi
+                                      Quý Khách tiến hành đặt cược, những vé cược đó được hủy bỏ và vô hiệu. Kết quả đã được biết đến và vé cược xem như vô hiệu trong
+                                      trường hợp này.</li>
+                                    </ul>
+                                  </li>
+                                  </li>
+                                </ul>
+                              </li>
+                              <li>
+                                <b>(b) Casino</b>
+                                <ol class="nostyle2 adjust3">
+                                  <li>
+                                    <b>1. Casino Trực Tuyến</b>
+                                    <ul>
+                                      <li>DV388.com không chịu trách nhiệm cho bất kỳ thiệt hại hoặc tổn thất nào phát sinh trong thời gian mất kết nối internet, sự gián
+                                      đoạn máy chủ, sóng video trực tuyến chậm, lỗi kết nối đường truyền internet, lỗi do bất kỳ sự gián đoạn kỹ thuật để tham gia trò
+                                      chơi.</li>
+                                      <li>DV388.com không chịu trách nhiệm nếu dịch vụ kết nối internet của Quý khách chậm, gián đoạn từ nhà cung cấp dịch vụ internet và
+                                      máy tính / vấn đề trình duyệt / video trực tuyến chậm.</li>
+                                      <li>Vé cược sẽ được hoàn trả nếu kết quả không chính xác do sự cố hệ thống hoặc con người.</li>
+                                      <li>Trường hợp bị gián đoạn bởi lỗi hệ thống hoặc ngưng kết nối do hệ thống máy tính trong khi Quý Khách đang thực hiện đặt cược và
+                                      xác nhận, việc đặt cược sẽ kết thúc và khôi phục. Quý Khách tham khảo kết quả đặt cược thành công tại trang "Tài khoản của
+                                      tôi".</li>
+                                      <li>Các vé cược sẽ được hủy nếu như hệ thống Casino trong thời gian bảo trì.</li>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                  <li>
+                                    <b>2. Trò chơi quay số ngẫu nhiên (RNG) / Roulette </b>
+                                    <ul>
+                                      <li>DV388.com sẽ không chịu trách nhiệm về bất kỳ lỗi nào xảy ra trong RNG, bao gồm việc thanh toán, giải thưởng Jackpots (slots), kết
+                                      hợp hoặc sử dụng trong bất kỳ trò chơi hoặc sản phẩm nào.</li>
+                                      <li>DV388.com chỉ chấp nhận vé cược Roulette tại sảnh DV CASINO / các vé cược Roulette tại sảnh trò chơi khác sẽ không được chấp nhận và trả thưởng.</li>
+                                      <li>Vé cược của Quý khách sẽ bị tạm ngưng nếu Quý khách cố ý hay vô ý rút bỏ cáp điện, đóng trình duyệt, đóng ứng dụng trò chơi hoặc
+                                      ứng dụng tải về, đăng xuất khỏi tài khoản và / hoặc rút cáp internet của Quý khách ra trước hoặc trong quá trình chơi và trò chơi là
+                                      ở vị trí bắt đầu hay trước khi kết quả được công bố, hoặc do lỗi viễn thông của Quý khách hoặc chậm trễ trong kết nối, và là một vé
+                                      cược được xác nhận. Các vé cược đã được xác nhận sẽ kết thúc sau khi kết quả của vé cược đó được công bố trên hệ thống khôi phục
+                                      bình thường, Quý Khách tham khảo kết quả đặt cược thành công tại trang "Tài khoản của tôi".</li>
+                                      <li>DV388.com không chịu trách nhiệm nếu dịch vụ Internet của Quý khách chậm hoặc bị gián đoạn, hoặc các vấn đề thuộc máy tính/ trình
+                                      duyệt của Quý khách ngắt kết nối với trò chơi.</li>
+                                      <li>Các vé cược sẽ được hủy nếu như hệ thống RNG trong thời gian bảo trì.</li>
+                                      <li>Việc nghiêm cấm sử dụng các hệ thống Bots / Máy hoặc phần mềm, chương trình để chơi trong RNG bao gồm cả tiền thật và phần chơi
+                                      thử.</li>
+                                      </li>
+                                    </ul>
+                                  </li>
+                                </ol>
+                              </li>
+                              <li>
+                                <b>(c) Xổ số</b>
+                                <ul class="adjust2">
+                                  <li>DV388.com không chịu trách nhiệm cho bất kỳ thiệt hại hoặc tổn thất nào mà được coi là / bị cho là đã phát sinh hoặc liên quan đến
+                                  trang web hoặc nội dung của nó, bao gồm và không giới hạn vào bất kỳ thời gian bảo trì, sự gián đoạn máy chủ, chậm trễ về việc mở và
+                                  đóng cửa của sự kiện / thị trường , thông tin gián đoạn do đường truyền Internet, lỗi và thiếu sót trong nội dung hay bất kỳ sự gián
+                                  đoạn kỹ thuật nào trong trò chơi.</li>
+                                  <li>Nếu hệ thống vẫn tiếp tục chấp nhận đặt cược khi thị trường đóng cửa hoặc bị tạm ngừng giao dịch.</li>
+                                  <li>Tất cả các vé cược được hủy bỏ nếu kết quả không chính xác.</li>
+                                  <li>Những tỷ lệ không chính xác, DV388.com lập tức khắc phục sai sót hoặc sự cố được xác định rõ ràng, chúng tôi sẽ tạm ngưng và được
+                                  giải quyết ngay và cho phép hủy cược.</li>
+                                  <li>Các vé cược đặt vào thị trường không chính sẽ được hủy cược.</li>
+                                  <li>Trường hợp bị gián đoạn bởi lỗi hệ thống hoặc ngưng kết nối do hệ thống máy tính trong khi Quý Khách đang thực hiện đặt cược và
+                                  xác nhận, việc đặt cược sẽ kết thúc và khôi phục. Quý Khách tham khảo kết quả đặt cược thành công tại trang "Tài khoản của tôi".</li>
+                                  <li>Việc đặt cược sau khi thị trường đã bắt đầu quay số, vé cược sẽ được hủy bỏ và tiền cược của Quý khách sẽ được hoàn trả.</li>
+                                 
+                                  </li>
+                                </ul>
+                              </li>
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading8">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                10. Phần Mềm Games và Công Nghệ
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+                        <div class="panel-body">
+                            
+                              <ol class="nostyle1 adjust">
+                              <li>
+                                <span>10.1</span>
+                                <p>DV388.com là nhãn hiệu đã có đăng kí bản quyền kinh doanh, khẩu hiệu và DV388.com logo. Bất kì hình thức sử dụng trái phép các phần mềm,
+                                thương hiệu, logo và khẩu hiệu có thể bị truy tố.</p>
+                              </li>
+                              <li>
+                                <span>10.2</span>
+                                <p>Trong các sản phẩm được cung cấp trên trang web DV388.com có thể cần Qúy Khách tải về một số phần mềm hoặc các ứng dụng. Ngoài ra, một
+                                số nhà cung cấp sản phẩm của bên thứ ba có thể yêu cầu Quý Khách phải đồng ý thêm các điều khoản về việc sử dụng các sản phẩm của họ.
+                                DV388.com không chấp nhận bất kỳ trách nhiệm đối với bất kỳ phần mềm của bên thứ ba. Không sử dụng các phần mềm có liên quan của bên thứ
+                                ba nếu Quý Khách không chấp nhận những điều kiện của bên thứ ba.</p>
+                              </li>
+                              <li>
+                                <span>10.3</span>
+                                <p>Quý Khách chỉ được phép sử dụng bất kỳ và tất cả các phần mềm được cung cấp cho quý khách thông qua trang web DV388.com và những đường
+                                dẫn thay thế khác cho mục đích của việc sử dụng các sản phẩm và các trò chơi trên các trang web và lưu vào phạm vi cho phép của các
+                                luật áp dụng.</p>
+                              </li>
+                              <li>
+                                <span>10.4</span>
+                                <p>Trong bất kì trường hợp nào Quý Khách cũng không được phép sao chép, sửa đổi, làm lại hay ngoài ra làm các phần mềm, mã nguồn hoặc
+                                nội dung tương tự giống như trang web gốc là DV388.com. (Ví dụ, trang web lừa đảo) trên một trang web khác hoặc thông qua bất kỳ hình
+                                thức nào của bảng thông báo. Quý khách không được phép truy cập và bỏ qua phần mềm bảo mật DV388.com và hệ thống và/hoặc các hình thức
+                                can thiệp vào bao gồm nhưng không giới hạn đối với robot và các thiết bị tương tự.</p>
+                              </li>
+                              <li>
+                                <span>10.5</span>
+                                <p>Quý khách không được phép truy cập đến các trang web và hoặc các đường dẫn thay thế khác mà không có sự chấp thuận trước bằng văn
+                                bản của DV388.com.</p>
+                              </li>
+                              <li>
+                                <span>10.6</span>
+                                <p>Quý khách không được quyền sở hữu phần mềm. Phần mềm này được sở hữu và là bản độc quyền của DV388.com cùng Công ty cung cấp phần mềm
+                                thứ ba.Bất kỳ bên thứ ba cung cấp phần mềm đã được cấp giấy phép DV388.com là sản phẩm độc quyền của phần mềm.Việc quý khách sử dụng phần
+                                mềm không cung cấp cho quý khách quyền sở hữu của bất kỳ quyền sở hữu trí tuệ trong các phần mềm. Sử dụng trái phép hoặc sao chép lại
+                                có thể bị truy tố.</p>
+                              </li>
+                              <li>
+                                <span>10.7</span>
+                                <p>DV388.com không đảm bảo rằng phần mềm sẽ đáp ứng yêu cầu của quý khách, bao gồm cả phần mềm của bên thứ ba và nhà cung cấp dịch vụ
+                                Internet, các hoạt động của phần mềm và hoặc của nhà cung cấp dịch vụ internet sẽ có thể bị lỗi và hay bị gián đoạn.</p>
+                              </li>
+                              <li>
+                                <span>10.8</span>
+                                <p>Nếu có bất kỳ lỗi hệ thống xảy ra trong bất kỳ các tính năng, chức năng hoặc các thành phần của phần mềm, DV388.com cũng như bên thứ
+                                ba cung cấp phần mềm sẽ không có bất kỳ trách nhiệm nào đối với các lỗi như vậy.DV388.com có quyền đình chỉ hoặc loại bỏ tất cả các sản
+                                phẩm có liên quan và sẽ có hành động để sửa sự cố đó.</p>
+                              </li>
+                              <li>
+                                <span>10.9</span>
+                                <p>DV388.com sẽ nỗ lực để đảm bảo rằng các trang web và các đuờng dẫn thay thế khác có thể hoạt động 24 giờ một ngày. DV388.com sẽ đo lường
+                                những hoạt động cần thiết và sẽ có hành động để đảm bảo các trang web và các dịch vụ hoặc sản phẩm hoạt động thường xuyên.</p>
+                              </li>
+                              <li>
+                                <span>10.10</span>
+                                <p>Thành viên, hoặc nhóm / tổ hợp hoặc cá nhân không được phép sử dụng trang web bằng cách giới thiệu virus, trojan, worms, hoặc bất kỳ
+                                phần cứng / phần mềm công nghệ có hại. Quý khách không đuợc tấn công website của chúng tôi thông qua một cuộc tấn công từ chối dịch
+                                vụ.Chúng tôi sẽ không chịu trách nhiệm về bất kỳ tổn thất hoặc thiệt hại gây ra bởi một cuộc tấn công phân tán, tấn công từ chối dịch
+                                vụ (DDOS), virus hoặc bất kỳ phần cứng / phần mềm công nghệ có hại.</p>
+                              </li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading9">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                11. Trách nhiệm
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+                        <div class="panel-body">
+                            
+                              <ol class="nostyle1 adjust">
+                              <li>
+                                <span>11.1</span>
+                                <p>DV388.com không chịu bất kỳ trách nhiệm đối với bất kỳ thiệt hại, tổn thất, ngẫu nhiên hay nói cách khác, ngoài ra là các việc phát
+                                sinh liên quan đến việc sử dụng của trang web, các sản phẩm và hệ thống (phần mềm / ứng dụng) và việc Qúy khách tham gia vào các trò
+                                chơi.</p>
+                              </li>
+                              <li>
+                                <span>11.2</span>
+                                <p>DV388.com sẽ nỗ lực để đảm bảo rằng tất cả các thông tin cung cấp trên trang web này là chính xác tại thời điểm công bố, DV388.com không
+                                đảm bảo tính chính xác của thông tin trên trang web ngoài các điều kiện sử dụng đã cam kết.</p>
+                              </li>
+                              <li>
+                                <span>11.3</span>
+                                <p>Quý khách phải chịu trách nhiệm và chấp nhận rủi ro khi truy cập website và các đường dẫn trên trang web của chúng tôi.</p>
+                              </li>
+                              <li>
+                                <span>11.4</span>
+                                <p>Quý khách cần đồng ý bồi thường đầy đủ và giữ cho trang web DV388.com vô hại, các giám đốc, nhân viên, đối tác và các nhà cung cấp
+                                dịch vụ cho bất kỳ tổn thất, thiệt hại, khiếu nại và trách nhiệm gây ra có thể phát sinh liên quan đến việc bạn sử dụng trang web, các
+                                đường dẫn thay thế khác, các hệ thống và phần mềm (ứng dụng).</p>
+                              </li>
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="heading10">
+                        <h4 class="panel-title">
+                            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                12. Điều Khoản và Điều Kiện Tài Khoản An Toàn
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+                        <div class="panel-body">
+                            
+                              <ol class="nostyle1 adjust">
+                              <li>
+                                <span>12.1</span>
+                                <p>Trang web của chúng tôi được phát triển dựa trên độ an toàn và bảo mật của quý khách là tiêu chí hàng đầu, DV388 được điều chỉnh và sẽ
+                                không tiết lộ thông tin cá nhân của quý khách nhờ tiêu chuẩn mã hóa dữ liệu cao nhất.***Tuy nhiên, DV388 có quyền nhất định để đóng, khóa
+                                hoặc đình chỉ bất cứ tài khoản nào nếu nghi ngờ tài khoản đó đang đe dọa gây hại đến công ty hoặc các thành viên khác***</p>
+                              </li>
+                              <li>
+                                <span>12.2</span>
+                                <p>DV388 có quyền tiết lộ hay chuyển dữ liệu cá nhân của quý khách đến các nhà cung cấp dịch vụ thanh toán tương ứng của chúng tôi và các
+                                viện tài chính nếu cần thiết để hoàn thành các thủ tục thanh toán cho các dịch vụ đã cung cấp cho quý khách tại website của chúng
+                                tôi</p>
+                              </li>
+                              <li>
+                                <span>12.3</span>
+                                <p>DV388 có quyền nhất định để từ chối Tiền Cược Miễn Phí của bất kỳ thành viên nào nếu DV388 có căn cứ tin rằng thành viên đó có lịch sử
+                                lạm dụng các vấn đề kỹ thuật hoặc các lý do khác để lừa gạt tài khoản và hệ thống an toàn tại DV388.</p>
+                              </li>
+                            </ol>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+  </div>       
+</div>    
+
+<!-- back to top -->
+<a href="#" id="back-to-top" title="Back to top"><!-- &uarr; -->
+  <img src="images/goTop.png" title="Back to Top">
+</a>
+<style type="text/css">
+.nostyle2 li p{padding-left:12px; list-style: none;}
+.abc{padding-left:50px; list-style: none;}
+.abc li p{padding-left: 0; list-style: none;}
+.abc2 li p{padding-left: 0px!important}
+.adjust li p{padding-left:10px;}
+.adjust2 li {margin-left: 6px;}
+.adjust3{ margin-left: -17px; list-style: none; }
+</style>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modernizr.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+$(function(){
+  $.get("menus/menu_vi-vn.shtml", function(a){
+    $("#menucontent").append(a);
+  });
+});
+</script>
+
+<div id="eJOY__extension_root" class="eJOY__extension_root_class" style="all: unset;"></div><iframe id="nr-ext-rsicon" style="position: absolute; display: none; width: 50px; height: 50px; z-index: 2147483647; border-style: none; background: transparent;"></iframe></body></html>
