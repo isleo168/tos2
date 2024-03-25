@@ -437,13 +437,14 @@
                         <div class="panel-heading" role="tab" id="heading2">
                             <h4 class="panel-title">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                                    2. Tiền Hoàn Trả Được Tính Như Thế Nào?
+                                    2. Tiền Hoàn Trả ( tiền hoa hồng ) Được Tính Như Thế Nào?
                                 </a>
                             </h4>
                         </div>
                         <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
                             <div class="panel-body">
-                                <p>Tiền hoàn trả sẽ được tính dựa trên tổng số tiền đặt cược hợp lệ tại các sản phẩm mà quý khách tham gia chơi trong thời gian quy định. </p>
+                                <p>Tiền hoàn trả sẽ được tính dựa trên tổng số tiền đặt cược hợp lệ tại các sản phẩm mà quý khách tham gia chơi trong thời gian quy định.Tùy từng thời điểm và cấp độ VIP của tài khoản sẽ có hạn mức hoàn trả khác nhau </p>
+                                <p>LƯU Ý : Tiền hoàn trả ( tiền hoa hồng ) phải cược 01 vòng cược mới có thể rút tiền.</p>
                             </div>
                         </div>
                     </div>
@@ -451,14 +452,13 @@
                         <div class="panel-heading" role="tab" id="heading3">
                             <h4 class="panel-title">
                                 <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                                    3. Tiền Hoàn Trả ( tiền hoa hồng ) Có Cần Trải Qua Vòng Cược Theo Yêu Cầu Trước Khi Rút Tiền?
+                                    3. Tiền Hoàn Trả Có Cần Trải Qua Vòng Cược Theo Yêu Cầu Trước Khi Rút Tiền?
                                 </a>
                             </h4>
                         </div>
                         <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                             <div class="panel-body">
-                                <p>Tiền hoàn trả ( tiền hoa hồng ) có thể rút ngay mà không cần cược.</p>
-                                <p>LƯU Ý : Tiền hoàn trả ( tiền hoa hồng ) chỉ có thể rút,nếu tham gia đặt cược sẽ không được tính cược hợp lệ.</p>
+                                <p>Có,tiền hoàn trả của quý khách phải trải qua 01 vòng cược mới có thể rút tiền.</p>
                             </div>
                         </div>
                     </div>
@@ -475,12 +475,12 @@
                                 <p>
                                     <b>Bước 1:</b> Đăng nhập tài khoản tại DV388 > Ấn vào Trung tâm hội viên > chọn Lịch sử giao dịch > Hoa Hồng.<br><br>
 
-                                    <b>Bước 2:</b> Chọn mục Hoa Hồng >> Chọn thời gian muốn kiểm tra. Nếu quýt khách chưa đăng kí, ấn vào mục Đăng Ký Ngay tại sản phẩm quý khách tham gia chơi để nhận tiền hoàn trả.<br><br>
+                                    <b>Bước 2:</b> Chọn mục Hoa Hồng >> Chọn thời gian muốn kiểm tra. Nếu quý khách chưa đăng kí, ấn vào mục Đăng Ký Ngay tại sản phẩm quý khách tham gia chơi để nhận tiền hoàn trả.<br><br>
 
                                     <b>Lưu ý:</b><br>
                                     <ul type="disc">
                                         <li> Mức hoàn trả thấp nhất: Không có giới hạn mốc hoàn trả thấp nhất</li>
-                                        <li> Với các sản phẩm thể thao: Tiền hoàn trả sẽ được tự động cập nhật vào tài khoản chính của quý khách sau 01 tới 06 giờ kể từ thời điểm đơn cược được thanh toán.</li>
+                                        <li> Với các sản phẩm thể thao: Tiền hoàn trả sẽ được tự động cập nhật vào tài khoản chính của quý khách sau 12h trưa thứ 2 mỗi tuần.</li>
                                     </ul>
                                 </p>
                             </div>

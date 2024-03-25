@@ -397,8 +397,7 @@
         <div class="col-lg-12">
             <li>HƯỚNG DẪN ĐĂNG KÝ</li>
             <div class="embed-responsive embed-responsive-16by9">
-                <video id="myvideo" width="320" height="240" controls="" style="background:black">
-                    <source src="vid/HD_DANGKYTK.mp4" type="video/mp4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/LxfrsKAL_q0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </video>
             </div>
             <br>
@@ -406,8 +405,7 @@
         <div class="col-lg-12">
             <li>HƯỚNG DẪN NẠP TIỀN</li>
             <div class="embed-responsive embed-responsive-16by9">
-                <video id="myvideo" width="320" height="240" controls="" style="background:black">
-                    <source src="vid/HD_NAPTIEN.mp4" type="video/mp4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/72yPp6b7iR0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </video>
             </div>
             <br>
@@ -415,8 +413,7 @@
         <div class="col-lg-12">
             <li>HƯỚNG DẪN THANH TOÁN QRPAY</li>
             <div class="embed-responsive embed-responsive-16by9">
-                <video id="myvideo" width="320" height="240" controls="" style="background:black">
-                    <source src="vid/tt_qrpay.mp4" type="video/mp4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/nwgTi3qG0MY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </video>
             </div>
             <br>
@@ -424,8 +421,7 @@
         <div class="col-lg-12">
             <li>HƯỚNG DẪN RÚT TIỀN</li>
             <div class="embed-responsive embed-responsive-16by9">
-                <video id="myvideo" width="320" height="240" controls="" style="background:black">
-                    <source src="vid/HD_RUTTIEN.mp4" type="video/mp4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/6uWhoDMHJUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </video>
             </div>
             <br>
@@ -433,8 +429,7 @@
         <div class="col-lg-12">
             <li>HƯỚNG DẪN TẢI APP iPHONE</li>
             <div class="embed-responsive embed-responsive-16by9">
-                <video id="myvideo" width="320" height="240" controls="" style="background:black">
-                    <source src="vid/hd_tai_app_iphone_new.mp4" type="video/mp4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/se_KIAECIio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </video>
             </div>
             <br>
@@ -442,8 +437,7 @@
         <div class="col-lg-12">
             <li>HƯỚNG DẪN TẢI APP ANDROID</li>
             <div class="embed-responsive embed-responsive-16by9">
-                <video id="myvideo" width="320" height="240" controls="" style="background:black">
-                    <source src="vid/hd_cai_android.mp4" type="video/mp4">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/DphDc6wDp8U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </video>
             </div>
             <br>
